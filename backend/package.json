@@ -8,6 +8,7 @@
     "build": "prisma generate && (tsc -p tsconfig.json || exit 0)",
     "start": "node dist/index.js",
     "postinstall": "prisma generate",
+    "seed:prod": "tsx scripts/addBasicWords.ts && tsx scripts/addWordFormations.ts && tsx scripts/generateCurriculum.ts",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --max-warnings=0",
     "import:csv": "tsx scripts/importCsv.ts",
     "import:pdf": "tsx scripts/importPdf.ts"
