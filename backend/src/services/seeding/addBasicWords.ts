@@ -1,6 +1,6 @@
 import { v4 as uuid } from "uuid";
-import { dataStore } from "../src/services/dataStore";
-import { Deck } from "../src/types";
+import { prisma } from "../../db";
+import { Deck } from "../../types";
 
 const deckId = "deck-850-basic";
 
@@ -1047,39 +1047,61 @@ const words = [
     createWord("Hollow", "adjective", "Rỗng tuệch, lòm xuống", "/ˈhɒləʊ/"),
 ];
 
-async function run() {
+export async function addBasicWords() {
     console.log("Adding 850 Basic Words deck...");
 
-    await dataStore.save((store) => {
-        // Add deck if not exists
-        if (!store.decks.find(d => d.id === deckId)) {
-            store.decks.push(deck);
-            console.log("Deck created.");
-        } else {
-            console.log("Deck already exists.");
-        }
-
-        // Add words
-        let count = 0;
-        words.forEach(w => {
-            // Check if word exists in this deck to avoid duplicates
-            const exists = store.words.find(existing => existing.deckId === deckId && existing.headword.toLowerCase() === w.headword.toLowerCase());
-            if (!exists) {
-                store.words.push({
-                    id: uuid(),
-                    deckId: deckId,
-                    headword: w.headword,
-                    partOfSpeech: w.partOfSpeech,
-                    meaningVi: w.meaningVi,
-                    exampleEn: `Example for ${w.headword}`,
-                    exampleVi: `Ví dụ cho ${w.headword}`,
-                    picturable: false
-                });
-                count++;
+    try {
+        await prisma.deck.upsert({
+            where: { id: deckId },
+            update: {},
+            create: {
+                id: deck.id,
+                name: deck.name,
+                description: deck.description,
+                category: deck.category,
+                totalWords: deck.totalWords,
+                version: deck.version,
+                language: deck.language
             }
         });
-        console.log(`Added ${count} new words.`);
-    });
-}
+        console.log("Deck ensured.");
 
-run().catch(console.error);
+        let count = 0;
+        console.log(`Processing ${words.length} words...`);
+
+        // Process in batches to avoid connection timeout
+        const BATCH_SIZE = 50;
+        for (let i = 0; i < words.length; i += BATCH_SIZE) {
+            const batch = words.slice(i, i + BATCH_SIZE);
+            await Promise.all(batch.map(async (w) => {
+                const existing = await prisma.wordEntry.findFirst({
+                    where: {
+                        deckId: deckId,
+                        headword: { equals: w.headword } // SQLite was case-insensitive by default, Postgres needs explicit mode if we want it, but exact match is fine for now or we can use mode: 'insensitive'
+                    }
+                });
+
+                if (!existing) {
+                    await prisma.wordEntry.create({
+                        data: {
+                            id: uuid(),
+                            deckId: deckId,
+                            headword: w.headword,
+                            partOfSpeech: w.partOfSpeech,
+                            meaningVi: w.meaningVi,
+                            // phonetic: w.phonetic, // Schema doesn't have phonetic yet
+                            exampleEn: w.exampleEn || `Example for ${w.headword}`,
+                            exampleVi: w.exampleVi || `Ví dụ cho ${w.headword}`,
+                            picturable: false
+                        }
+                    });
+                    count++;
+                }
+            }));
+        }
+        console.log(`Added ${count} new words.`);
+    } catch (error) {
+        console.error("Error adding words:", error);
+        throw error;
+    }
+}

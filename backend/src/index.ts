@@ -20,6 +20,7 @@ import aiRouter from "./routes/ai.js";
 import { wordsRouter } from "./routes/words.js";
 import { curriculumRouter } from "./routes/curriculum.js";
 import wordFormationsRouter from "./routes/wordFormations.js";
+import adminRouter from "./routes/admin.js";
 import { initializeWebSocket } from "./services/websocket.js";
 import { seedIfNeeded } from "./seed.js";
 
@@ -54,6 +55,7 @@ app.use("/ai", aiRouter);
 app.use("/words", wordsRouter);
 app.use("/curriculum", curriculumRouter);
 app.use("/word-formations", wordFormationsRouter);
+app.use("/admin", adminRouter);
 
 async function start() {
   await dataStore.init();

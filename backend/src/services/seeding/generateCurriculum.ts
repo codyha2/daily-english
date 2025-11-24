@@ -1,7 +1,5 @@
 import { v4 as uuid } from "uuid";
-// Force recompile
-import { dataStore } from "../src/services/dataStore.js";
-import { DailyLesson, LessonType } from "../src/types.js";
+import { prisma } from "../../db";
 
 const DECK_ID = "deck-850-basic";
 const TOTAL_DAYS = 60;
@@ -9,38 +7,30 @@ const WORDS_PER_LEARNING_DAY = 15;
 
 /**
  * Generate 60-day curriculum for 850 Basic Words
- * 
- * Structure:
- * - Days 1-5: Learn (15 words each = 75 words)
- * - Day 6: Review (75 words from days 1-5)
- * - Day 7: Test (week 1)
- * ... repeat for 8.5 weeks
  */
-async function generateCurriculum() {
+export async function generateCurriculum() {
     console.log("🎯 Generating 60-Day Curriculum...\n");
 
-    const db = dataStore.snapshot;
-
     // Get all words from the deck
-    const deckWords = db.words.filter(w => w.deckId === DECK_ID);
+    const deckWords = await prisma.wordEntry.findMany({
+        where: { deckId: DECK_ID }
+    });
     console.log(`📚 Found ${deckWords.length} words in deck`);
 
     if (deckWords.length === 0) {
-        console.error("❌ No words found in deck. Run addBasicWords.ts first!");
+        console.error("❌ No words found in deck. Run addBasicWords first!");
         return;
     }
 
     // Shuffle words for variety
     const shuffledWords = [...deckWords].sort(() => Math.random() - 0.5);
 
-    const lessons: DailyLesson[] = [];
+    const lessons: any[] = [];
     let wordIndex = 0;
     let day = 1;
 
     // Generate 8 complete weeks
     for (let week = 1; week <= 8; week++) {
-        console.log(`\n📅 Week ${week}:`);
-
         // Days 1-5: Learning days
         const weekWordIds: string[] = [];
 
@@ -66,8 +56,6 @@ async function generateCurriculum() {
                     name: `Day ${day}: Learn New Words`,
                     description: `Learn ${lessonWordIds.length} new vocabulary words`
                 });
-
-                console.log(`  Day ${day}: Learn ${lessonWordIds.length} words`);
                 day++;
             }
         }
@@ -85,8 +73,6 @@ async function generateCurriculum() {
                 name: `Day ${day}: Week ${week} Review`,
                 description: `Review all ${weekWordIds.length} words from this week`
             });
-
-            console.log(`  Day ${day}: Review ${weekWordIds.length} words`);
             day++;
         }
 
@@ -102,8 +88,6 @@ async function generateCurriculum() {
             name: `Day ${day}: Week ${week} Test`,
             description: `Weekly assessment with 20 questions`
         });
-
-        console.log(`  Day ${day}: Test (20 questions from week ${week})`);
         day++;
     }
 
@@ -126,7 +110,6 @@ async function generateCurriculum() {
                 name: `Day ${day}: Comprehensive Review`,
                 description: `Review vocabulary learned so far`
             });
-            console.log(`\nDay ${day}: Comprehensive Review`);
             day++;
         } else {
             // Final test (Last day)
@@ -141,43 +124,41 @@ async function generateCurriculum() {
                 name: `Day ${day}: Final Exam`,
                 description: `Comprehensive final assessment`
             });
-            console.log(`\nDay ${day}: Final Exam`);
             day++;
         }
     }
 
     // Save to database
-    // Save to database
     console.log('💾 Saving to database...');
     try {
-        await dataStore.save((store) => {
-            console.log('  Inside save mutator');
-            console.log(`  Current dailyLessons count: ${store.dailyLessons?.length}`);
-
-            // Clear existing lessons for this deck
-            store.dailyLessons = store.dailyLessons.filter(l => l.deckId !== DECK_ID);
-            console.log(`  After filter: ${store.dailyLessons.length}`);
-
-            // Add new lessons
-            store.dailyLessons.push(...lessons);
-            console.log(`  After push: ${store.dailyLessons.length}`);
+        // Clear existing lessons for this deck
+        await prisma.dailyLesson.deleteMany({
+            where: { deckId: DECK_ID }
         });
-        console.log('✅ Save function returned');
+        console.log(`  Cleared existing lessons`);
+
+        // Add new lessons
+        // Use Promise.all with create instead of createMany for better compatibility across DB providers
+        await Promise.all(lessons.map(l =>
+            prisma.dailyLesson.create({
+                data: {
+                    id: l.id,
+                    deckId: l.deckId,
+                    day: l.day,
+                    weekNumber: l.weekNumber,
+                    type: l.type,
+                    wordIds: JSON.stringify(l.wordIds),
+                    wordsCount: l.wordsCount,
+                    name: l.name,
+                    description: l.description
+                }
+            })
+        ));
+        console.log(`  Added ${lessons.length} lessons`);
     } catch (error) {
         console.error('❌ Error saving to database:', error);
+        throw error;
     }
 
-    console.log(`\n✅ Generated ${lessons.length} daily lessons`);
-    console.log(`📊 Learning days: ${lessons.filter(l => l.type === 'learn').length}`);
-    console.log(`🔄 Review days: ${lessons.filter(l => l.type === 'review').length}`);
-    console.log(`📝 Test days: ${lessons.filter(l => l.type === 'test').length}`);
-    console.log(`📈 Total words: ${wordIndex}/${shuffledWords.length}`);
     console.log("\n🎉 Curriculum generation complete!");
 }
-
-async function run() {
-    await dataStore.init();
-    await generateCurriculum();
-}
-
-run().catch(console.error);
