@@ -1,7 +1,7 @@
 import express from 'express';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-import { DATA_PATH } from '../config';
+import { DATA_PATH } from '../config.js';
 
 const router = express.Router();
 
