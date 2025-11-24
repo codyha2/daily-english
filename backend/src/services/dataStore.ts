@@ -1,11 +1,8 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
-import { createRequire } from "module";
+import { PrismaClient } from "@prisma/client";
 import { DATA_PATH } from "../config.js";
 import type { DatabaseShape, User, Deck, WordEntry, UserWord, Session, ImportJob, UserBadge, Teacher, Class, StudyRoom, ChatMessage, LMSConnection, SyncEvent, DailyLesson, UserProgress } from "../types.js";
-
-const require = createRequire(import.meta.url);
-const { PrismaClient } = require('c:/Users/Admin/Documents/english/backend/src/generated/client');
 
 const prisma = new PrismaClient();
 console.log('Prisma keys:', Object.keys(prisma));
