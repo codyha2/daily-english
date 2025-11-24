@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+.env.production
+*.db
+*.db-journal
+dist/
+build/
+prisma/dev.db
+src/generated/
+*.log
+.DS_Store

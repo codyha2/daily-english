@@ -1,0 +1,5644 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "Demo Learner",
+      "email": "demo@example.com",
+      "role": "student",
+      "dailyGoal": 10,
+      "language": "vi",
+      "streak": 0,
+      "xp": 0,
+      "notificationTime": "20:00"
+    },
+    {
+      "id": "student-001",
+      "name": "Học viên A",
+      "email": "student001@example.com",
+      "role": "student",
+      "dailyGoal": 10,
+      "language": "vi",
+      "streak": 5,
+      "xp": 250,
+      "notificationTime": "19:00"
+    },
+    {
+      "id": "student-002",
+      "name": "Học viên B",
+      "email": "student002@example.com",
+      "role": "student",
+      "dailyGoal": 20,
+      "language": "vi",
+      "streak": 3,
+      "xp": 180,
+      "notificationTime": "20:30"
+    }
+  ],
+  "decks": [
+    {
+      "id": "deck-850-basic",
+      "name": "850 Basic Words",
+      "description": "850 từ tiếng Anh cơ bản (Ogden's Basic English)",
+      "category": "things_general",
+      "totalWords": 850,
+      "version": 1,
+      "language": "vi"
+    }
+  ],
+  "words": [
+    {
+      "id": "0f37d6d2-d21e-4b25-ba9b-5579f6977cb3",
+      "deckId": "deck-850-basic",
+      "headword": "Come",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đến",
+      "exampleEn": "Example for Come",
+      "exampleVi": "Ví dụ cho Come",
+      "picturable": false
+    },
+    {
+      "id": "fa94fc11-1826-4b50-8f58-0d06934bd086",
+      "deckId": "deck-850-basic",
+      "headword": "Get",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đạt được",
+      "exampleEn": "Example for Get",
+      "exampleVi": "Ví dụ cho Get",
+      "picturable": false
+    },
+    {
+      "id": "50e093ac-1d6f-4f7d-8404-8f01a92a2ec5",
+      "deckId": "deck-850-basic",
+      "headword": "Give",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đưa",
+      "exampleEn": "Example for Give",
+      "exampleVi": "Ví dụ cho Give",
+      "picturable": false
+    },
+    {
+      "id": "1246285d-045f-44dd-b2a7-b4b77f0bb3ed",
+      "deckId": "deck-850-basic",
+      "headword": "Keep",
+      "partOfSpeech": "verb",
+      "meaningVi": "Giữ",
+      "exampleEn": "Example for Keep",
+      "exampleVi": "Ví dụ cho Keep",
+      "picturable": false
+    },
+    {
+      "id": "48771a06-a92b-4a73-88bd-dbb23d7df801",
+      "deckId": "deck-850-basic",
+      "headword": "Let",
+      "partOfSpeech": "verb",
+      "meaningVi": "Để cho",
+      "exampleEn": "Example for Let",
+      "exampleVi": "Ví dụ cho Let",
+      "picturable": false
+    },
+    {
+      "id": "9ead585d-cb9a-4f49-838a-821e9ea3e4dd",
+      "deckId": "deck-850-basic",
+      "headword": "Make",
+      "partOfSpeech": "verb",
+      "meaningVi": "Làm cho",
+      "exampleEn": "Example for Make",
+      "exampleVi": "Ví dụ cho Make",
+      "picturable": false
+    },
+    {
+      "id": "59c54fc8-45b6-49f5-878a-3252611182a6",
+      "deckId": "deck-850-basic",
+      "headword": "Put",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đặt, để",
+      "exampleEn": "Example for Put",
+      "exampleVi": "Ví dụ cho Put",
+      "picturable": false
+    },
+    {
+      "id": "f44469ba-f5f0-452a-8551-72717ee1694f",
+      "deckId": "deck-850-basic",
+      "headword": "Seem",
+      "partOfSpeech": "verb",
+      "meaningVi": "Dường như",
+      "exampleEn": "Example for Seem",
+      "exampleVi": "Ví dụ cho Seem",
+      "picturable": false
+    },
+    {
+      "id": "efa63105-2c0f-4bb2-8614-dedb9be36991",
+      "deckId": "deck-850-basic",
+      "headword": "Take",
+      "partOfSpeech": "verb",
+      "meaningVi": "Cầm lấy",
+      "exampleEn": "Example for Take",
+      "exampleVi": "Ví dụ cho Take",
+      "picturable": false
+    },
+    {
+      "id": "7bbd6346-59c5-41f6-b44d-e221d5b3d739",
+      "deckId": "deck-850-basic",
+      "headword": "Be",
+      "partOfSpeech": "verb",
+      "meaningVi": "Là, thì, ở",
+      "exampleEn": "Example for Be",
+      "exampleVi": "Ví dụ cho Be",
+      "picturable": false
+    },
+    {
+      "id": "c69fd484-509c-4a50-b833-99ef2d5e66e7",
+      "deckId": "deck-850-basic",
+      "headword": "Do",
+      "partOfSpeech": "verb",
+      "meaningVi": "Làm",
+      "exampleEn": "Example for Do",
+      "exampleVi": "Ví dụ cho Do",
+      "picturable": false
+    },
+    {
+      "id": "3af14d44-e7c1-4f7b-9927-c9eeb011f7bf",
+      "deckId": "deck-850-basic",
+      "headword": "Have",
+      "partOfSpeech": "verb",
+      "meaningVi": "Có được",
+      "exampleEn": "Example for Have",
+      "exampleVi": "Ví dụ cho Have",
+      "picturable": false
+    },
+    {
+      "id": "634fbce7-15f4-49da-89bc-49c40f6709c1",
+      "deckId": "deck-850-basic",
+      "headword": "Say",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nói",
+      "exampleEn": "Example for Say",
+      "exampleVi": "Ví dụ cho Say",
+      "picturable": false
+    },
+    {
+      "id": "8725ac87-1f87-4a08-bb81-f2c5f9588bfb",
+      "deckId": "deck-850-basic",
+      "headword": "See",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nhìn",
+      "exampleEn": "Example for See",
+      "exampleVi": "Ví dụ cho See",
+      "picturable": false
+    },
+    {
+      "id": "ec3a0a68-a1db-411a-a649-1e36bdb63c23",
+      "deckId": "deck-850-basic",
+      "headword": "Send",
+      "partOfSpeech": "verb",
+      "meaningVi": "Gửi",
+      "exampleEn": "Example for Send",
+      "exampleVi": "Ví dụ cho Send",
+      "picturable": false
+    },
+    {
+      "id": "79fe0c4b-47d0-4246-ab19-1e29fb53e943",
+      "deckId": "deck-850-basic",
+      "headword": "May",
+      "partOfSpeech": "modal verb",
+      "meaningVi": "Có thể",
+      "exampleEn": "Example for May",
+      "exampleVi": "Ví dụ cho May",
+      "picturable": false
+    },
+    {
+      "id": "a2770cb2-97c9-47a6-b0a4-3973b53104db",
+      "deckId": "deck-850-basic",
+      "headword": "Will",
+      "partOfSpeech": "modal verb",
+      "meaningVi": "Sẽ",
+      "exampleEn": "Example for Will",
+      "exampleVi": "Ví dụ cho Will",
+      "picturable": false
+    },
+    {
+      "id": "8fddaaae-95a5-4ef8-852d-60eec351d5ce",
+      "deckId": "deck-850-basic",
+      "headword": "About",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Về",
+      "exampleEn": "Example for About",
+      "exampleVi": "Ví dụ cho About",
+      "picturable": false
+    },
+    {
+      "id": "53c0d097-7996-49ee-b3f6-1f3fcf72491f",
+      "deckId": "deck-850-basic",
+      "headword": "Across",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Băng qua",
+      "exampleEn": "Example for Across",
+      "exampleVi": "Ví dụ cho Across",
+      "picturable": false
+    },
+    {
+      "id": "0eeb9636-58d4-4cb1-ba87-43db761226be",
+      "deckId": "deck-850-basic",
+      "headword": "Against",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Chống lại",
+      "exampleEn": "Example for Against",
+      "exampleVi": "Ví dụ cho Against",
+      "picturable": false
+    },
+    {
+      "id": "737b9b0e-d6e7-4232-804e-989b0b8b61e2",
+      "deckId": "deck-850-basic",
+      "headword": "Among",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Trong số",
+      "exampleEn": "Example for Among",
+      "exampleVi": "Ví dụ cho Among",
+      "picturable": false
+    },
+    {
+      "id": "f3d40fd8-9ce3-4ea7-8527-282e7b3f9988",
+      "deckId": "deck-850-basic",
+      "headword": "At",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Ở tại",
+      "exampleEn": "Example for At",
+      "exampleVi": "Ví dụ cho At",
+      "picturable": false
+    },
+    {
+      "id": "031ecf0b-dde0-4b46-b468-f3a9244f52f2",
+      "deckId": "deck-850-basic",
+      "headword": "Before",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Trước",
+      "exampleEn": "Example for Before",
+      "exampleVi": "Ví dụ cho Before",
+      "picturable": false
+    },
+    {
+      "id": "db77e178-72e7-406e-895d-eee05ef2e083",
+      "deckId": "deck-850-basic",
+      "headword": "Between",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Ở giữa",
+      "exampleEn": "Example for Between",
+      "exampleVi": "Ví dụ cho Between",
+      "picturable": false
+    },
+    {
+      "id": "864efdba-1750-4f14-875d-25a98d18f06a",
+      "deckId": "deck-850-basic",
+      "headword": "Through",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Xuyên qua",
+      "exampleEn": "Example for Through",
+      "exampleVi": "Ví dụ cho Through",
+      "picturable": false
+    },
+    {
+      "id": "1f1fbb95-8e9a-4db9-a26f-8388f9c56bd5",
+      "deckId": "deck-850-basic",
+      "headword": "To",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Đến",
+      "exampleEn": "Example for To",
+      "exampleVi": "Ví dụ cho To",
+      "picturable": false
+    },
+    {
+      "id": "ac4b8d6e-001c-4bac-9744-dcf09dd0514e",
+      "deckId": "deck-850-basic",
+      "headword": "Under",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Ở phía dưới",
+      "exampleEn": "Example for Under",
+      "exampleVi": "Ví dụ cho Under",
+      "picturable": false
+    },
+    {
+      "id": "6ed927d8-7531-4742-9960-0803fac5c0ce",
+      "deckId": "deck-850-basic",
+      "headword": "Up",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Ở phía trên",
+      "exampleEn": "Example for Up",
+      "exampleVi": "Ví dụ cho Up",
+      "picturable": false
+    },
+    {
+      "id": "64d23d5b-509f-4467-8066-69f78920f515",
+      "deckId": "deck-850-basic",
+      "headword": "With",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Cùng",
+      "exampleEn": "Example for With",
+      "exampleVi": "Ví dụ cho With",
+      "picturable": false
+    },
+    {
+      "id": "8e8630a9-4159-4eee-872b-db82032f91dd",
+      "deckId": "deck-850-basic",
+      "headword": "As",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Như là",
+      "exampleEn": "Example for As",
+      "exampleVi": "Ví dụ cho As",
+      "picturable": false
+    },
+    {
+      "id": "c292ac08-abb7-4ebf-8600-a3f94eb50f1f",
+      "deckId": "deck-850-basic",
+      "headword": "For",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Để cho",
+      "exampleEn": "Example for For",
+      "exampleVi": "Ví dụ cho For",
+      "picturable": false
+    },
+    {
+      "id": "0efc2dfe-1f87-4012-9eff-bf78cad4e283",
+      "deckId": "deck-850-basic",
+      "headword": "Of",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Của",
+      "exampleEn": "Example for Of",
+      "exampleVi": "Ví dụ cho Of",
+      "picturable": false
+    },
+    {
+      "id": "c7986fa1-7d64-4b15-a3db-67b3aaa7cb1d",
+      "deckId": "deck-850-basic",
+      "headword": "Till",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Đến tận khi",
+      "exampleEn": "Example for Till",
+      "exampleVi": "Ví dụ cho Till",
+      "picturable": false
+    },
+    {
+      "id": "9f17d313-dd70-4375-9a10-86385b363238",
+      "deckId": "deck-850-basic",
+      "headword": "Than",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Hơn",
+      "exampleEn": "Example for Than",
+      "exampleVi": "Ví dụ cho Than",
+      "picturable": false
+    },
+    {
+      "id": "f61704ed-539d-4ace-b603-1066539fdca1",
+      "deckId": "deck-850-basic",
+      "headword": "A",
+      "partOfSpeech": "article",
+      "meaningVi": "Một, một cái",
+      "exampleEn": "Example for A",
+      "exampleVi": "Ví dụ cho A",
+      "picturable": false
+    },
+    {
+      "id": "ef7f0dd2-d313-4efc-a709-c4b93b0f720c",
+      "deckId": "deck-850-basic",
+      "headword": "The",
+      "partOfSpeech": "article",
+      "meaningVi": "Cái, con, người (đã xác định)",
+      "exampleEn": "Example for The",
+      "exampleVi": "Ví dụ cho The",
+      "picturable": false
+    },
+    {
+      "id": "4ae0eb37-33b4-4bac-b198-ad42abc6a1a8",
+      "deckId": "deck-850-basic",
+      "headword": "All",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Tất cả",
+      "exampleEn": "Example for All",
+      "exampleVi": "Ví dụ cho All",
+      "picturable": false
+    },
+    {
+      "id": "a719b45b-65e6-42db-ab69-b7b473ed7a2d",
+      "deckId": "deck-850-basic",
+      "headword": "Any",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Bất kỳ",
+      "exampleEn": "Example for Any",
+      "exampleVi": "Ví dụ cho Any",
+      "picturable": false
+    },
+    {
+      "id": "5baa3639-0b03-4ba1-abbe-002cd09fbbce",
+      "deckId": "deck-850-basic",
+      "headword": "Every",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Mọi",
+      "exampleEn": "Example for Every",
+      "exampleVi": "Ví dụ cho Every",
+      "picturable": false
+    },
+    {
+      "id": "2eb9dd1c-0ca1-4297-942c-dc1d2346ade9",
+      "deckId": "deck-850-basic",
+      "headword": "No",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Không",
+      "exampleEn": "Example for No",
+      "exampleVi": "Ví dụ cho No",
+      "picturable": false
+    },
+    {
+      "id": "6f66c7a1-d131-4844-8cfd-f2a8b511d5bc",
+      "deckId": "deck-850-basic",
+      "headword": "Other",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Cái khác",
+      "exampleEn": "Example for Other",
+      "exampleVi": "Ví dụ cho Other",
+      "picturable": false
+    },
+    {
+      "id": "16bb0768-5eb0-4c9b-944d-49a8a05d6850",
+      "deckId": "deck-850-basic",
+      "headword": "Some",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Một vài",
+      "exampleEn": "Example for Some",
+      "exampleVi": "Ví dụ cho Some",
+      "picturable": false
+    },
+    {
+      "id": "7359f96a-01c1-4707-a84c-1916e32f0739",
+      "deckId": "deck-850-basic",
+      "headword": "Such",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Như thế",
+      "exampleEn": "Example for Such",
+      "exampleVi": "Ví dụ cho Such",
+      "picturable": false
+    },
+    {
+      "id": "ce397eb8-1f5d-42c2-82b7-fa6155e6c358",
+      "deckId": "deck-850-basic",
+      "headword": "That",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Cái đó",
+      "exampleEn": "Example for That",
+      "exampleVi": "Ví dụ cho That",
+      "picturable": false
+    },
+    {
+      "id": "acc335d6-b911-4964-b900-552afc66a5a4",
+      "deckId": "deck-850-basic",
+      "headword": "This",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Cái này",
+      "exampleEn": "Example for This",
+      "exampleVi": "Ví dụ cho This",
+      "picturable": false
+    },
+    {
+      "id": "88b2c7b0-effc-42ff-91e6-6e88210f2a36",
+      "deckId": "deck-850-basic",
+      "headword": "I",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Tôi",
+      "exampleEn": "Example for I",
+      "exampleVi": "Ví dụ cho I",
+      "picturable": false
+    },
+    {
+      "id": "89cd7be3-0be9-497c-b242-88f94be4301a",
+      "deckId": "deck-850-basic",
+      "headword": "She",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Cô ta, bà ta",
+      "exampleEn": "Example for She",
+      "exampleVi": "Ví dụ cho She",
+      "picturable": false
+    },
+    {
+      "id": "05975791-89d3-4755-8473-f8580417495c",
+      "deckId": "deck-850-basic",
+      "headword": "He",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Ông ta, anh ta",
+      "exampleEn": "Example for He",
+      "exampleVi": "Ví dụ cho He",
+      "picturable": false
+    },
+    {
+      "id": "c784b6ea-4578-4abd-8b99-12aca5a353a3",
+      "deckId": "deck-850-basic",
+      "headword": "You",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Bạn, các bạn",
+      "exampleEn": "Example for You",
+      "exampleVi": "Ví dụ cho You",
+      "picturable": false
+    },
+    {
+      "id": "dfbc8d00-a2c0-42e6-ba1b-6c27e66a94ac",
+      "deckId": "deck-850-basic",
+      "headword": "Who",
+      "partOfSpeech": "pronoun",
+      "meaningVi": "Ai",
+      "exampleEn": "Example for Who",
+      "exampleVi": "Ví dụ cho Who",
+      "picturable": false
+    },
+    {
+      "id": "bf102cf5-6e76-4537-8553-a7d07e750a65",
+      "deckId": "deck-850-basic",
+      "headword": "And",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Và",
+      "exampleEn": "Example for And",
+      "exampleVi": "Ví dụ cho And",
+      "picturable": false
+    },
+    {
+      "id": "d715ee41-584e-4352-b762-3e484e1a7e0a",
+      "deckId": "deck-850-basic",
+      "headword": "Because",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Bởi vì",
+      "exampleEn": "Example for Because",
+      "exampleVi": "Ví dụ cho Because",
+      "picturable": false
+    },
+    {
+      "id": "230cf377-3db5-4360-8197-e047e12b9214",
+      "deckId": "deck-850-basic",
+      "headword": "But",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Nhưng",
+      "exampleEn": "Example for But",
+      "exampleVi": "Ví dụ cho But",
+      "picturable": false
+    },
+    {
+      "id": "11c53605-2d4b-4506-8d94-1b65cf490840",
+      "deckId": "deck-850-basic",
+      "headword": "Or",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Hoặc là",
+      "exampleEn": "Example for Or",
+      "exampleVi": "Ví dụ cho Or",
+      "picturable": false
+    },
+    {
+      "id": "bf6e7177-406d-4ed0-b1b9-fe9f2cb84d40",
+      "deckId": "deck-850-basic",
+      "headword": "If",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Nếu",
+      "exampleEn": "Example for If",
+      "exampleVi": "Ví dụ cho If",
+      "picturable": false
+    },
+    {
+      "id": "1526ff90-6e8f-4c3f-b32c-53aacf5b6a09",
+      "deckId": "deck-850-basic",
+      "headword": "Though",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Mặc dù",
+      "exampleEn": "Example for Though",
+      "exampleVi": "Ví dụ cho Though",
+      "picturable": false
+    },
+    {
+      "id": "3392605f-79b1-4573-b017-0128e71d282d",
+      "deckId": "deck-850-basic",
+      "headword": "While",
+      "partOfSpeech": "conjunction",
+      "meaningVi": "Trong khi",
+      "exampleEn": "Example for While",
+      "exampleVi": "Ví dụ cho While",
+      "picturable": false
+    },
+    {
+      "id": "c3c924de-36c6-44f7-b009-b7cf2d89a47d",
+      "deckId": "deck-850-basic",
+      "headword": "How",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Như thế nào",
+      "exampleEn": "Example for How",
+      "exampleVi": "Ví dụ cho How",
+      "picturable": false
+    },
+    {
+      "id": "9a5f9b15-27dd-473d-b67d-bc320c825fca",
+      "deckId": "deck-850-basic",
+      "headword": "When",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Khi nào",
+      "exampleEn": "Example for When",
+      "exampleVi": "Ví dụ cho When",
+      "picturable": false
+    },
+    {
+      "id": "dd8231f7-caef-4b7e-8d86-74802624d5ee",
+      "deckId": "deck-850-basic",
+      "headword": "Where",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Ở đâu",
+      "exampleEn": "Example for Where",
+      "exampleVi": "Ví dụ cho Where",
+      "picturable": false
+    },
+    {
+      "id": "1b714078-f634-4b20-8492-6330ebdaac97",
+      "deckId": "deck-850-basic",
+      "headword": "Why",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Tại sao",
+      "exampleEn": "Example for Why",
+      "exampleVi": "Ví dụ cho Why",
+      "picturable": false
+    },
+    {
+      "id": "553dd86a-3e53-4bff-a74e-57a8d36640fa",
+      "deckId": "deck-850-basic",
+      "headword": "Again",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Lặp lại",
+      "exampleEn": "Example for Again",
+      "exampleVi": "Ví dụ cho Again",
+      "picturable": false
+    },
+    {
+      "id": "9c823b13-e477-48d5-9f46-f32b765e215f",
+      "deckId": "deck-850-basic",
+      "headword": "Ever",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Đã từng",
+      "exampleEn": "Example for Ever",
+      "exampleVi": "Ví dụ cho Ever",
+      "picturable": false
+    },
+    {
+      "id": "25d92201-27db-4fc3-a7a4-f1fbfb08968a",
+      "deckId": "deck-850-basic",
+      "headword": "Far",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Xa",
+      "exampleEn": "Example for Far",
+      "exampleVi": "Ví dụ cho Far",
+      "picturable": false
+    },
+    {
+      "id": "4bc74a9b-6e57-4eae-a666-e50fda3f094c",
+      "deckId": "deck-850-basic",
+      "headword": "Forward",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Phía trước",
+      "exampleEn": "Example for Forward",
+      "exampleVi": "Ví dụ cho Forward",
+      "picturable": false
+    },
+    {
+      "id": "986b236a-41d9-4e64-8c43-452a84c0dfe1",
+      "deckId": "deck-850-basic",
+      "headword": "Here",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Ở đây",
+      "exampleEn": "Example for Here",
+      "exampleVi": "Ví dụ cho Here",
+      "picturable": false
+    },
+    {
+      "id": "d4e65701-a677-46bc-a71b-e9f6fef82d4d",
+      "deckId": "deck-850-basic",
+      "headword": "Near",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Ở gần đây",
+      "exampleEn": "Example for Near",
+      "exampleVi": "Ví dụ cho Near",
+      "picturable": false
+    },
+    {
+      "id": "7af6451d-8e93-413b-ae91-6947d3497e87",
+      "deckId": "deck-850-basic",
+      "headword": "Now",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Bây giờ",
+      "exampleEn": "Example for Now",
+      "exampleVi": "Ví dụ cho Now",
+      "picturable": false
+    },
+    {
+      "id": "b849a683-b58b-4ee8-ac80-12b7416f1b74",
+      "deckId": "deck-850-basic",
+      "headword": "Out",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Bên ngoài",
+      "exampleEn": "Example for Out",
+      "exampleVi": "Ví dụ cho Out",
+      "picturable": false
+    },
+    {
+      "id": "48126f83-8d3d-483f-a3aa-e9830d67bbf4",
+      "deckId": "deck-850-basic",
+      "headword": "Still",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Vẫn",
+      "exampleEn": "Example for Still",
+      "exampleVi": "Ví dụ cho Still",
+      "picturable": false
+    },
+    {
+      "id": "50367b7d-971a-4211-9a33-86bf651073b7",
+      "deckId": "deck-850-basic",
+      "headword": "Then",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Sau đó",
+      "exampleEn": "Example for Then",
+      "exampleVi": "Ví dụ cho Then",
+      "picturable": false
+    },
+    {
+      "id": "f9f37636-dbb7-4835-8cf9-9e575aa82a28",
+      "deckId": "deck-850-basic",
+      "headword": "There",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Ở đó",
+      "exampleEn": "Example for There",
+      "exampleVi": "Ví dụ cho There",
+      "picturable": false
+    },
+    {
+      "id": "c0f7db6c-ed9a-47e2-9d24-32e1fd12bf5f",
+      "deckId": "deck-850-basic",
+      "headword": "Together",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Cùng nhau",
+      "exampleEn": "Example for Together",
+      "exampleVi": "Ví dụ cho Together",
+      "picturable": false
+    },
+    {
+      "id": "48cc6a96-5216-463a-8213-5ec92e299a5b",
+      "deckId": "deck-850-basic",
+      "headword": "Well",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Tốt",
+      "exampleEn": "Example for Well",
+      "exampleVi": "Ví dụ cho Well",
+      "picturable": false
+    },
+    {
+      "id": "b6f7da0f-5bdb-4590-92d4-e32ef9b9e6ff",
+      "deckId": "deck-850-basic",
+      "headword": "Almost",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Hầu như",
+      "exampleEn": "Example for Almost",
+      "exampleVi": "Ví dụ cho Almost",
+      "picturable": false
+    },
+    {
+      "id": "60867e79-e7f3-4db9-b361-aaa2da5562e4",
+      "deckId": "deck-850-basic",
+      "headword": "Enough",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Đủ",
+      "exampleEn": "Example for Enough",
+      "exampleVi": "Ví dụ cho Enough",
+      "picturable": false
+    },
+    {
+      "id": "193d0ec9-8076-4b81-9fd7-d6a44df7addd",
+      "deckId": "deck-850-basic",
+      "headword": "Even",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Ngay cả",
+      "exampleEn": "Example for Even",
+      "exampleVi": "Ví dụ cho Even",
+      "picturable": false
+    },
+    {
+      "id": "79a8622b-5a80-4a1c-9d5f-32866b8696c1",
+      "deckId": "deck-850-basic",
+      "headword": "Little",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Một ít",
+      "exampleEn": "Example for Little",
+      "exampleVi": "Ví dụ cho Little",
+      "picturable": false
+    },
+    {
+      "id": "211264f2-4da3-4e38-84b7-2f3d7aa8e919",
+      "deckId": "deck-850-basic",
+      "headword": "Much",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Nhiều",
+      "exampleEn": "Example for Much",
+      "exampleVi": "Ví dụ cho Much",
+      "picturable": false
+    },
+    {
+      "id": "e50a95e5-3c41-4dbe-afa6-cba967ab25da",
+      "deckId": "deck-850-basic",
+      "headword": "Not",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Không",
+      "exampleEn": "Example for Not",
+      "exampleVi": "Ví dụ cho Not",
+      "picturable": false
+    },
+    {
+      "id": "e6983f7e-ea90-433a-8ad6-066f81c8f5df",
+      "deckId": "deck-850-basic",
+      "headword": "Only",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Chỉ",
+      "exampleEn": "Example for Only",
+      "exampleVi": "Ví dụ cho Only",
+      "picturable": false
+    },
+    {
+      "id": "c7ca6941-4318-4583-92bb-c7dcf0c7ba67",
+      "deckId": "deck-850-basic",
+      "headword": "Quite",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Hoàn toàn",
+      "exampleEn": "Example for Quite",
+      "exampleVi": "Ví dụ cho Quite",
+      "picturable": false
+    },
+    {
+      "id": "11ac794c-ef25-4cf3-a096-bac79cb19704",
+      "deckId": "deck-850-basic",
+      "headword": "So",
+      "partOfSpeech": "adverb",
+      "meaningVi": "Vì thế",
+      "exampleEn": "Example for So",
+      "exampleVi": "Ví dụ cho So",
+      "picturable": false
+    },
+    {
+      "id": "a4fd3f16-8dad-4e8e-9f9a-26a0af66a9da",
+      "deckId": "deck-850-basic",
+      "headword": "Very",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Rất",
+      "exampleEn": "Example for Very",
+      "exampleVi": "Ví dụ cho Very",
+      "picturable": false
+    },
+    {
+      "id": "297687a7-11b7-47cb-9fa4-584c71e58d09",
+      "deckId": "deck-850-basic",
+      "headword": "Tomorrow",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngày mai",
+      "exampleEn": "Example for Tomorrow",
+      "exampleVi": "Ví dụ cho Tomorrow",
+      "picturable": false
+    },
+    {
+      "id": "b4dc186a-82c8-4bc9-9eb8-7dc25eceaa67",
+      "deckId": "deck-850-basic",
+      "headword": "Yesterday",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hôm qua",
+      "exampleEn": "Example for Yesterday",
+      "exampleVi": "Ví dụ cho Yesterday",
+      "picturable": false
+    },
+    {
+      "id": "aad95c6c-f15e-4ba4-9da3-1713d92824c2",
+      "deckId": "deck-850-basic",
+      "headword": "North",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phương bắc",
+      "exampleEn": "Example for North",
+      "exampleVi": "Ví dụ cho North",
+      "picturable": false
+    },
+    {
+      "id": "840ba9fa-641b-45be-b723-5781c8ac7034",
+      "deckId": "deck-850-basic",
+      "headword": "South",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phương nam",
+      "exampleEn": "Example for South",
+      "exampleVi": "Ví dụ cho South",
+      "picturable": false
+    },
+    {
+      "id": "2fa7448b-9d08-44f3-aa37-a194dfcf3b82",
+      "deckId": "deck-850-basic",
+      "headword": "East",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phương đông",
+      "exampleEn": "Example for East",
+      "exampleVi": "Ví dụ cho East",
+      "picturable": false
+    },
+    {
+      "id": "7fda019d-ea9d-490b-a6e1-c2e4bc95410f",
+      "deckId": "deck-850-basic",
+      "headword": "West",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phương tây",
+      "exampleEn": "Example for West",
+      "exampleVi": "Ví dụ cho West",
+      "picturable": false
+    },
+    {
+      "id": "b65bb2fb-5dee-49f9-8af1-f97fe1ebed63",
+      "deckId": "deck-850-basic",
+      "headword": "Please",
+      "partOfSpeech": "verb",
+      "meaningVi": "Xin vui lòng",
+      "exampleEn": "Example for Please",
+      "exampleVi": "Ví dụ cho Please",
+      "picturable": false
+    },
+    {
+      "id": "57575be7-0350-4e38-a37f-ec77b93f3ded",
+      "deckId": "deck-850-basic",
+      "headword": "Yes",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vâng",
+      "exampleEn": "Example for Yes",
+      "exampleVi": "Ví dụ cho Yes",
+      "picturable": false
+    },
+    {
+      "id": "d44ac5ef-bb4d-471b-9cbf-d215bde680e4",
+      "deckId": "deck-850-basic",
+      "headword": "Account",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tài khoản",
+      "exampleEn": "Example for Account",
+      "exampleVi": "Ví dụ cho Account",
+      "picturable": false
+    },
+    {
+      "id": "963a0d9e-cf02-49af-8298-f070659c6120",
+      "deckId": "deck-850-basic",
+      "headword": "Act",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hành động",
+      "exampleEn": "Example for Act",
+      "exampleVi": "Ví dụ cho Act",
+      "picturable": false
+    },
+    {
+      "id": "f8052fec-30e8-4a6a-af60-96190462cff7",
+      "deckId": "deck-850-basic",
+      "headword": "Addition",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thêm",
+      "exampleEn": "Example for Addition",
+      "exampleVi": "Ví dụ cho Addition",
+      "picturable": false
+    },
+    {
+      "id": "6f5882a1-6d0c-4bea-a205-1ef7fc1de527",
+      "deckId": "deck-850-basic",
+      "headword": "Adjustment",
+      "partOfSpeech": "noun",
+      "meaningVi": "Điều chỉnh",
+      "exampleEn": "Example for Adjustment",
+      "exampleVi": "Ví dụ cho Adjustment",
+      "picturable": false
+    },
+    {
+      "id": "7c0d3961-d8a3-4830-9d16-88cf9d864a0f",
+      "deckId": "deck-850-basic",
+      "headword": "Advertisement",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quảng cáo",
+      "exampleEn": "Example for Advertisement",
+      "exampleVi": "Ví dụ cho Advertisement",
+      "picturable": false
+    },
+    {
+      "id": "a4e75dff-3c6f-4fd8-baa9-9dc2cdca24d7",
+      "deckId": "deck-850-basic",
+      "headword": "Agreement",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự đồng ý",
+      "exampleEn": "Example for Agreement",
+      "exampleVi": "Ví dụ cho Agreement",
+      "picturable": false
+    },
+    {
+      "id": "77f7d7e6-ecba-46c7-abd6-ad9b7d82f37c",
+      "deckId": "deck-850-basic",
+      "headword": "Air",
+      "partOfSpeech": "noun",
+      "meaningVi": "Không khí",
+      "exampleEn": "Example for Air",
+      "exampleVi": "Ví dụ cho Air",
+      "picturable": false
+    },
+    {
+      "id": "7ae4acb6-d347-468b-865e-82f058acbff8",
+      "deckId": "deck-850-basic",
+      "headword": "Amount",
+      "partOfSpeech": "noun",
+      "meaningVi": "Số lượng",
+      "exampleEn": "Example for Amount",
+      "exampleVi": "Ví dụ cho Amount",
+      "picturable": false
+    },
+    {
+      "id": "34892009-0a65-491e-b75c-5230a12f4351",
+      "deckId": "deck-850-basic",
+      "headword": "Amusement",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự làm vui lòng",
+      "exampleEn": "Example for Amusement",
+      "exampleVi": "Ví dụ cho Amusement",
+      "picturable": false
+    },
+    {
+      "id": "553d225c-42db-4475-9ab5-982045c444fb",
+      "deckId": "deck-850-basic",
+      "headword": "Animal",
+      "partOfSpeech": "noun",
+      "meaningVi": "Động vật",
+      "exampleEn": "Example for Animal",
+      "exampleVi": "Ví dụ cho Animal",
+      "picturable": false
+    },
+    {
+      "id": "ba689f20-3956-4e1f-a89e-d33809323f4f",
+      "deckId": "deck-850-basic",
+      "headword": "Answer",
+      "partOfSpeech": "verb",
+      "meaningVi": "Trả lời",
+      "exampleEn": "Example for Answer",
+      "exampleVi": "Ví dụ cho Answer",
+      "picturable": false
+    },
+    {
+      "id": "b8dac49b-fbbd-45e6-ba05-4e31852a11c0",
+      "deckId": "deck-850-basic",
+      "headword": "Apparatus",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dụng cụ",
+      "exampleEn": "Example for Apparatus",
+      "exampleVi": "Ví dụ cho Apparatus",
+      "picturable": false
+    },
+    {
+      "id": "0aee746f-32eb-472d-8420-05025c21277b",
+      "deckId": "deck-850-basic",
+      "headword": "Approval",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự chấp thuận",
+      "exampleEn": "Example for Approval",
+      "exampleVi": "Ví dụ cho Approval",
+      "picturable": false
+    },
+    {
+      "id": "6fe62e09-3f64-4aa6-81e2-d7ff0b0ce24f",
+      "deckId": "deck-850-basic",
+      "headword": "Argument",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự tranh cãi",
+      "exampleEn": "Example for Argument",
+      "exampleVi": "Ví dụ cho Argument",
+      "picturable": false
+    },
+    {
+      "id": "c1744068-1394-4724-b706-79c4253b5685",
+      "deckId": "deck-850-basic",
+      "headword": "Art",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nghệ thuật",
+      "exampleEn": "Example for Art",
+      "exampleVi": "Ví dụ cho Art",
+      "picturable": false
+    },
+    {
+      "id": "cdb4c564-f7e8-4624-93bb-f9b487b09b14",
+      "deckId": "deck-850-basic",
+      "headword": "Attack",
+      "partOfSpeech": "verb",
+      "meaningVi": "Sự tấn công",
+      "exampleEn": "Example for Attack",
+      "exampleVi": "Ví dụ cho Attack",
+      "picturable": false
+    },
+    {
+      "id": "65d03c36-495b-4218-aed9-e0a5d0f8076a",
+      "deckId": "deck-850-basic",
+      "headword": "Attempt",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự cố gắng",
+      "exampleEn": "Example for Attempt",
+      "exampleVi": "Ví dụ cho Attempt",
+      "picturable": false
+    },
+    {
+      "id": "3442eede-8088-48ce-b071-6a209faa9d4e",
+      "deckId": "deck-850-basic",
+      "headword": "Attention",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự có mặt",
+      "exampleEn": "Example for Attention",
+      "exampleVi": "Ví dụ cho Attention",
+      "picturable": false
+    },
+    {
+      "id": "41289ae5-1d10-473a-8a71-63bb7845741d",
+      "deckId": "deck-850-basic",
+      "headword": "Attraction",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự thu hút",
+      "exampleEn": "Example for Attraction",
+      "exampleVi": "Ví dụ cho Attraction",
+      "picturable": false
+    },
+    {
+      "id": "66730dbd-ee49-45cf-817f-cf1634eee350",
+      "deckId": "deck-850-basic",
+      "headword": "Authority",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự thẩm quyền",
+      "exampleEn": "Example for Authority",
+      "exampleVi": "Ví dụ cho Authority",
+      "picturable": false
+    },
+    {
+      "id": "dd92a86d-2b45-45b0-bd9a-fcd6a3bc7545",
+      "deckId": "deck-850-basic",
+      "headword": "Back",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lưng",
+      "exampleEn": "Example for Back",
+      "exampleVi": "Ví dụ cho Back",
+      "picturable": false
+    },
+    {
+      "id": "48c346e6-d9ae-4db6-964a-eab6ccc22091",
+      "deckId": "deck-850-basic",
+      "headword": "Balance",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cân bằng",
+      "exampleEn": "Example for Balance",
+      "exampleVi": "Ví dụ cho Balance",
+      "picturable": false
+    },
+    {
+      "id": "70e850af-ed2d-43c4-a8ac-47f038886eb7",
+      "deckId": "deck-850-basic",
+      "headword": "Base",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cơ sở",
+      "exampleEn": "Example for Base",
+      "exampleVi": "Ví dụ cho Base",
+      "picturable": false
+    },
+    {
+      "id": "e58c1367-cdd5-47ac-926a-0b2e289be985",
+      "deckId": "deck-850-basic",
+      "headword": "Behavior",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cư xử",
+      "exampleEn": "Example for Behavior",
+      "exampleVi": "Ví dụ cho Behavior",
+      "picturable": false
+    },
+    {
+      "id": "a8a2f59d-b14c-4d61-8c02-3408086f8c4a",
+      "deckId": "deck-850-basic",
+      "headword": "Belief",
+      "partOfSpeech": "noun",
+      "meaningVi": "Niềm tin",
+      "exampleEn": "Example for Belief",
+      "exampleVi": "Ví dụ cho Belief",
+      "picturable": false
+    },
+    {
+      "id": "6981f2db-027a-4193-abc6-24fd7af2e22c",
+      "deckId": "deck-850-basic",
+      "headword": "Birth",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự sinh sản",
+      "exampleEn": "Example for Birth",
+      "exampleVi": "Ví dụ cho Birth",
+      "picturable": false
+    },
+    {
+      "id": "0247dfbf-6b65-415f-aea3-5f4024bdb34c",
+      "deckId": "deck-850-basic",
+      "headword": "Bit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Một ít",
+      "exampleEn": "Example for Bit",
+      "exampleVi": "Ví dụ cho Bit",
+      "picturable": false
+    },
+    {
+      "id": "18d7404f-ef41-41b0-a4a9-0ba8800bcacb",
+      "deckId": "deck-850-basic",
+      "headword": "Bite",
+      "partOfSpeech": "verb",
+      "meaningVi": "Cắn",
+      "exampleEn": "Example for Bite",
+      "exampleVi": "Ví dụ cho Bite",
+      "picturable": false
+    },
+    {
+      "id": "1d2e625b-faf2-44ba-b2d4-4beb8107b96e",
+      "deckId": "deck-850-basic",
+      "headword": "Blood",
+      "partOfSpeech": "noun",
+      "meaningVi": "Máu",
+      "exampleEn": "Example for Blood",
+      "exampleVi": "Ví dụ cho Blood",
+      "picturable": false
+    },
+    {
+      "id": "56f72a01-c216-4e14-ae31-ef1a1e49fbdc",
+      "deckId": "deck-850-basic",
+      "headword": "Blow",
+      "partOfSpeech": "verb",
+      "meaningVi": "Thổi",
+      "exampleEn": "Example for Blow",
+      "exampleVi": "Ví dụ cho Blow",
+      "picturable": false
+    },
+    {
+      "id": "67c81637-e5ec-482f-abe3-14eaeea96bd1",
+      "deckId": "deck-850-basic",
+      "headword": "Body",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cơ thể",
+      "exampleEn": "Example for Body",
+      "exampleVi": "Ví dụ cho Body",
+      "picturable": false
+    },
+    {
+      "id": "4d1751da-ddf0-4fd3-9b81-57254f69f291",
+      "deckId": "deck-850-basic",
+      "headword": "Brass",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đồng thau",
+      "exampleEn": "Example for Brass",
+      "exampleVi": "Ví dụ cho Brass",
+      "picturable": false
+    },
+    {
+      "id": "5a785061-62e5-48a1-a8dd-be42e1038277",
+      "deckId": "deck-850-basic",
+      "headword": "Bread",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bánh mỳ",
+      "exampleEn": "Example for Bread",
+      "exampleVi": "Ví dụ cho Bread",
+      "picturable": false
+    },
+    {
+      "id": "a5f8af40-f76a-4386-837c-e7a87a7161a8",
+      "deckId": "deck-850-basic",
+      "headword": "Breath",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hơi thở",
+      "exampleEn": "Example for Breath",
+      "exampleVi": "Ví dụ cho Breath",
+      "picturable": false
+    },
+    {
+      "id": "7be39938-ae21-42f7-8641-c7e19c2d9c8e",
+      "deckId": "deck-850-basic",
+      "headword": "Brother",
+      "partOfSpeech": "noun",
+      "meaningVi": "Anh, em trai",
+      "exampleEn": "Example for Brother",
+      "exampleVi": "Ví dụ cho Brother",
+      "picturable": false
+    },
+    {
+      "id": "5de24611-cd6c-4330-8134-cf39adde350c",
+      "deckId": "deck-850-basic",
+      "headword": "Building",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tòa nhà",
+      "exampleEn": "Example for Building",
+      "exampleVi": "Ví dụ cho Building",
+      "picturable": false
+    },
+    {
+      "id": "eefa2d89-dfd8-4ca7-948c-8590c4af6f2a",
+      "deckId": "deck-850-basic",
+      "headword": "Burn",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bốc cháy",
+      "exampleEn": "Example for Burn",
+      "exampleVi": "Ví dụ cho Burn",
+      "picturable": false
+    },
+    {
+      "id": "14a792f5-e029-41d3-b4a7-5ba680d14114",
+      "deckId": "deck-850-basic",
+      "headword": "Burst",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bùng nổ",
+      "exampleEn": "Example for Burst",
+      "exampleVi": "Ví dụ cho Burst",
+      "picturable": false
+    },
+    {
+      "id": "c28466c5-3c3a-439f-bafb-897bf4e7e215",
+      "deckId": "deck-850-basic",
+      "headword": "Business",
+      "partOfSpeech": "noun",
+      "meaningVi": "Công việc",
+      "exampleEn": "Example for Business",
+      "exampleVi": "Ví dụ cho Business",
+      "picturable": false
+    },
+    {
+      "id": "cce1b744-8ccc-4e6a-abc3-e24aa8fcf775",
+      "deckId": "deck-850-basic",
+      "headword": "Butter",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bơ",
+      "exampleEn": "Example for Butter",
+      "exampleVi": "Ví dụ cho Butter",
+      "picturable": false
+    },
+    {
+      "id": "086f5247-896c-420d-970d-c1c709441ac3",
+      "deckId": "deck-850-basic",
+      "headword": "Canvas",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vải bạt",
+      "exampleEn": "Example for Canvas",
+      "exampleVi": "Ví dụ cho Canvas",
+      "picturable": false
+    },
+    {
+      "id": "ad2e51c9-a058-4fe8-883b-b7ccabba572d",
+      "deckId": "deck-850-basic",
+      "headword": "Care",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự thận trọng",
+      "exampleEn": "Example for Care",
+      "exampleVi": "Ví dụ cho Care",
+      "picturable": false
+    },
+    {
+      "id": "f31509eb-963a-4333-989e-5c336cd4eef6",
+      "deckId": "deck-850-basic",
+      "headword": "Cause",
+      "partOfSpeech": "noun",
+      "meaningVi": "Gây nên",
+      "exampleEn": "Example for Cause",
+      "exampleVi": "Ví dụ cho Cause",
+      "picturable": false
+    },
+    {
+      "id": "9c747084-3a69-4b0b-ae4e-03fe9f018142",
+      "deckId": "deck-850-basic",
+      "headword": "Chalk",
+      "partOfSpeech": "noun",
+      "meaningVi": "Viên phấn",
+      "exampleEn": "Example for Chalk",
+      "exampleVi": "Ví dụ cho Chalk",
+      "picturable": false
+    },
+    {
+      "id": "8e9fe9cf-5381-4e6b-8d6b-1af07e47dc9c",
+      "deckId": "deck-850-basic",
+      "headword": "Chance",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cơ hội",
+      "exampleEn": "Example for Chance",
+      "exampleVi": "Ví dụ cho Chance",
+      "picturable": false
+    },
+    {
+      "id": "9dc18817-fde7-4e61-a53a-2e6dd885951d",
+      "deckId": "deck-850-basic",
+      "headword": "Change",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thay đổi",
+      "exampleEn": "Example for Change",
+      "exampleVi": "Ví dụ cho Change",
+      "picturable": false
+    },
+    {
+      "id": "93398244-efae-4f04-9f74-e2831fa5b541",
+      "deckId": "deck-850-basic",
+      "headword": "Cloth",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vải vóc",
+      "exampleEn": "Example for Cloth",
+      "exampleVi": "Ví dụ cho Cloth",
+      "picturable": false
+    },
+    {
+      "id": "7e00994f-8aa3-4a87-8206-41160300e0a6",
+      "deckId": "deck-850-basic",
+      "headword": "Coal",
+      "partOfSpeech": "noun",
+      "meaningVi": "Than đá",
+      "exampleEn": "Example for Coal",
+      "exampleVi": "Ví dụ cho Coal",
+      "picturable": false
+    },
+    {
+      "id": "f92525cb-c4c8-4cad-b0f6-d93973847f5a",
+      "deckId": "deck-850-basic",
+      "headword": "Color",
+      "partOfSpeech": "noun",
+      "meaningVi": "Màu sắc",
+      "exampleEn": "Example for Color",
+      "exampleVi": "Ví dụ cho Color",
+      "picturable": false
+    },
+    {
+      "id": "b668e003-b4fb-4f03-9201-b22123f9af5c",
+      "deckId": "deck-850-basic",
+      "headword": "Comfort",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự tiện nghi",
+      "exampleEn": "Example for Comfort",
+      "exampleVi": "Ví dụ cho Comfort",
+      "picturable": false
+    },
+    {
+      "id": "a0f0f26b-57f1-4f0a-b882-79b5b61c8d8e",
+      "deckId": "deck-850-basic",
+      "headword": "Committee",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ủy ban",
+      "exampleEn": "Example for Committee",
+      "exampleVi": "Ví dụ cho Committee",
+      "picturable": false
+    },
+    {
+      "id": "37fe0b13-a915-4e1f-9a29-4b7f53822aa2",
+      "deckId": "deck-850-basic",
+      "headword": "Company",
+      "partOfSpeech": "noun",
+      "meaningVi": "Công ty",
+      "exampleEn": "Example for Company",
+      "exampleVi": "Ví dụ cho Company",
+      "picturable": false
+    },
+    {
+      "id": "bfe8d44f-10d4-43f8-84f7-52d10641c9c4",
+      "deckId": "deck-850-basic",
+      "headword": "Comparison",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự so sánh",
+      "exampleEn": "Example for Comparison",
+      "exampleVi": "Ví dụ cho Comparison",
+      "picturable": false
+    },
+    {
+      "id": "65798020-1e7c-4ae5-aa4c-61e4ed2d155b",
+      "deckId": "deck-850-basic",
+      "headword": "Competition",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự cạnh tranh",
+      "exampleEn": "Example for Competition",
+      "exampleVi": "Ví dụ cho Competition",
+      "picturable": false
+    },
+    {
+      "id": "92ac1cba-bde2-4016-bdac-83e9b0771bcc",
+      "deckId": "deck-850-basic",
+      "headword": "Condition",
+      "partOfSpeech": "noun",
+      "meaningVi": "Điều kiện",
+      "exampleEn": "Example for Condition",
+      "exampleVi": "Ví dụ cho Condition",
+      "picturable": false
+    },
+    {
+      "id": "b0e1c440-f583-476a-90c9-b8b2d1fe781d",
+      "deckId": "deck-850-basic",
+      "headword": "Connection",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự liên kết",
+      "exampleEn": "Example for Connection",
+      "exampleVi": "Ví dụ cho Connection",
+      "picturable": false
+    },
+    {
+      "id": "ad4268ef-ddfc-443d-b55b-da7c86e1435c",
+      "deckId": "deck-850-basic",
+      "headword": "Control",
+      "partOfSpeech": "verb",
+      "meaningVi": "Kiểm soát",
+      "exampleEn": "Example for Control",
+      "exampleVi": "Ví dụ cho Control",
+      "picturable": false
+    },
+    {
+      "id": "e5b61ac0-899c-4b35-9547-5065d7a9b013",
+      "deckId": "deck-850-basic",
+      "headword": "Cook",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nấu",
+      "exampleEn": "Example for Cook",
+      "exampleVi": "Ví dụ cho Cook",
+      "picturable": false
+    },
+    {
+      "id": "010c78c0-2abc-429e-b3fc-060d9adce641",
+      "deckId": "deck-850-basic",
+      "headword": "Copper",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đồng",
+      "exampleEn": "Example for Copper",
+      "exampleVi": "Ví dụ cho Copper",
+      "picturable": false
+    },
+    {
+      "id": "8cfbb654-71ad-4d2a-9b54-9e837b3a92ad",
+      "deckId": "deck-850-basic",
+      "headword": "Copy",
+      "partOfSpeech": "verb",
+      "meaningVi": "Sao chép",
+      "exampleEn": "Example for Copy",
+      "exampleVi": "Ví dụ cho Copy",
+      "picturable": false
+    },
+    {
+      "id": "e4e349f0-5967-48c6-bfd2-c27e120d1c97",
+      "deckId": "deck-850-basic",
+      "headword": "Cork",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nút chai",
+      "exampleEn": "Example for Cork",
+      "exampleVi": "Ví dụ cho Cork",
+      "picturable": false
+    },
+    {
+      "id": "ff6137d0-1655-44ac-af22-4635e92ff2cd",
+      "deckId": "deck-850-basic",
+      "headword": "Cotton",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bông",
+      "exampleEn": "Example for Cotton",
+      "exampleVi": "Ví dụ cho Cotton",
+      "picturable": false
+    },
+    {
+      "id": "ccffee4e-1591-45ac-93c9-1170ccc18cc1",
+      "deckId": "deck-850-basic",
+      "headword": "Cough",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ho",
+      "exampleEn": "Example for Cough",
+      "exampleVi": "Ví dụ cho Cough",
+      "picturable": false
+    },
+    {
+      "id": "9eaa43b7-6784-4af5-a757-6e2f96f83d53",
+      "deckId": "deck-850-basic",
+      "headword": "Country",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quốc gia",
+      "exampleEn": "Example for Country",
+      "exampleVi": "Ví dụ cho Country",
+      "picturable": false
+    },
+    {
+      "id": "79fdc0ef-9629-46b4-8805-6c8dc790ba86",
+      "deckId": "deck-850-basic",
+      "headword": "Cover",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bao phủ",
+      "exampleEn": "Example for Cover",
+      "exampleVi": "Ví dụ cho Cover",
+      "picturable": false
+    },
+    {
+      "id": "7688fe98-5c1f-46b4-a15d-99f77937e386",
+      "deckId": "deck-850-basic",
+      "headword": "Crack",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đường nứt",
+      "exampleEn": "Example for Crack",
+      "exampleVi": "Ví dụ cho Crack",
+      "picturable": false
+    },
+    {
+      "id": "6a1688ea-1a8e-4358-8533-ce8ba143f86c",
+      "deckId": "deck-850-basic",
+      "headword": "Credit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tín dụng",
+      "exampleEn": "Example for Credit",
+      "exampleVi": "Ví dụ cho Credit",
+      "picturable": false
+    },
+    {
+      "id": "c396875b-c540-4fe1-a768-a0cb5f2c24ad",
+      "deckId": "deck-850-basic",
+      "headword": "Crime",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tội phạm",
+      "exampleEn": "Example for Crime",
+      "exampleVi": "Ví dụ cho Crime",
+      "picturable": false
+    },
+    {
+      "id": "d28a1ded-8e07-4cce-accc-a2990f769339",
+      "deckId": "deck-850-basic",
+      "headword": "Crush",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ép",
+      "exampleEn": "Example for Crush",
+      "exampleVi": "Ví dụ cho Crush",
+      "picturable": false
+    },
+    {
+      "id": "bc8a041b-75aa-406e-8fba-c06b019ce401",
+      "deckId": "deck-850-basic",
+      "headword": "Cry",
+      "partOfSpeech": "verb",
+      "meaningVi": "Khóc",
+      "exampleEn": "Example for Cry",
+      "exampleVi": "Ví dụ cho Cry",
+      "picturable": false
+    },
+    {
+      "id": "47b978e9-ad02-4dfe-9b34-4b9bbe1c2bca",
+      "deckId": "deck-850-basic",
+      "headword": "Current",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hiện hành",
+      "exampleEn": "Example for Current",
+      "exampleVi": "Ví dụ cho Current",
+      "picturable": false
+    },
+    {
+      "id": "95afaa9f-2a94-4ae7-b3ae-8fdff831862b",
+      "deckId": "deck-850-basic",
+      "headword": "Curve",
+      "partOfSpeech": "verb",
+      "meaningVi": "Khắc chạm",
+      "exampleEn": "Example for Curve",
+      "exampleVi": "Ví dụ cho Curve",
+      "picturable": false
+    },
+    {
+      "id": "87cfe487-06cc-487c-91d6-632071b9c1ca",
+      "deckId": "deck-850-basic",
+      "headword": "Damage",
+      "partOfSpeech": "verb",
+      "meaningVi": "Phá hủy",
+      "exampleEn": "Example for Damage",
+      "exampleVi": "Ví dụ cho Damage",
+      "picturable": false
+    },
+    {
+      "id": "1c43ee78-fdfb-4b62-b7fc-f310349f82a3",
+      "deckId": "deck-850-basic",
+      "headword": "Danger",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nguy hiểm",
+      "exampleEn": "Example for Danger",
+      "exampleVi": "Ví dụ cho Danger",
+      "picturable": false
+    },
+    {
+      "id": "a414619f-88ab-4546-b851-e723faad118b",
+      "deckId": "deck-850-basic",
+      "headword": "Daughter",
+      "partOfSpeech": "noun",
+      "meaningVi": "Con gái",
+      "exampleEn": "Example for Daughter",
+      "exampleVi": "Ví dụ cho Daughter",
+      "picturable": false
+    },
+    {
+      "id": "13421943-a130-40ec-a2f2-74c76b35d861",
+      "deckId": "deck-850-basic",
+      "headword": "Day",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngày",
+      "exampleEn": "Example for Day",
+      "exampleVi": "Ví dụ cho Day",
+      "picturable": false
+    },
+    {
+      "id": "dc900b50-36cf-43b9-b4be-cc8cff14925e",
+      "deckId": "deck-850-basic",
+      "headword": "Death",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cái chết",
+      "exampleEn": "Example for Death",
+      "exampleVi": "Ví dụ cho Death",
+      "picturable": false
+    },
+    {
+      "id": "7528c3ed-b9e5-404c-80f1-3863d46e484b",
+      "deckId": "deck-850-basic",
+      "headword": "Debt",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nợ",
+      "exampleEn": "Example for Debt",
+      "exampleVi": "Ví dụ cho Debt",
+      "picturable": false
+    },
+    {
+      "id": "a8f502e8-59e6-48bc-9dfd-2da07f9fb625",
+      "deckId": "deck-850-basic",
+      "headword": "Decision",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quyết định",
+      "exampleEn": "Example for Decision",
+      "exampleVi": "Ví dụ cho Decision",
+      "picturable": false
+    },
+    {
+      "id": "c93ce28e-4da3-483f-a1c4-dae082032cc5",
+      "deckId": "deck-850-basic",
+      "headword": "Degree",
+      "partOfSpeech": "noun",
+      "meaningVi": "Độ",
+      "exampleEn": "Example for Degree",
+      "exampleVi": "Ví dụ cho Degree",
+      "picturable": false
+    },
+    {
+      "id": "6c9924a3-7084-4883-a268-3c0b764dec17",
+      "deckId": "deck-850-basic",
+      "headword": "Design",
+      "partOfSpeech": "verb",
+      "meaningVi": "Thiết kế",
+      "exampleEn": "Example for Design",
+      "exampleVi": "Ví dụ cho Design",
+      "picturable": false
+    },
+    {
+      "id": "a4fd4cd9-0a2c-405d-be11-796994d01190",
+      "deckId": "deck-850-basic",
+      "headword": "Desire",
+      "partOfSpeech": "verb",
+      "meaningVi": "Mong muốn",
+      "exampleEn": "Example for Desire",
+      "exampleVi": "Ví dụ cho Desire",
+      "picturable": false
+    },
+    {
+      "id": "3221b8ba-f42e-4ae9-9fa0-a9e401e30a40",
+      "deckId": "deck-850-basic",
+      "headword": "Destruction",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự phá hủy",
+      "exampleEn": "Example for Destruction",
+      "exampleVi": "Ví dụ cho Destruction",
+      "picturable": false
+    },
+    {
+      "id": "37fdd79b-7399-485c-80a9-4f46e3e23bfd",
+      "deckId": "deck-850-basic",
+      "headword": "Detail",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chi tiết",
+      "exampleEn": "Example for Detail",
+      "exampleVi": "Ví dụ cho Detail",
+      "picturable": false
+    },
+    {
+      "id": "e13fdf35-eae2-4c6a-b4d0-96652ed1501c",
+      "deckId": "deck-850-basic",
+      "headword": "Development",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự phát triển",
+      "exampleEn": "Example for Development",
+      "exampleVi": "Ví dụ cho Development",
+      "picturable": false
+    },
+    {
+      "id": "329cf92d-5fa4-4b98-bdbf-4a6d52678953",
+      "deckId": "deck-850-basic",
+      "headword": "Digestion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự tiêu hóa",
+      "exampleEn": "Example for Digestion",
+      "exampleVi": "Ví dụ cho Digestion",
+      "picturable": false
+    },
+    {
+      "id": "3eb81a9a-a9ff-4e98-bfc4-2d9654c99b34",
+      "deckId": "deck-850-basic",
+      "headword": "Direction",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phương hướng",
+      "exampleEn": "Example for Direction",
+      "exampleVi": "Ví dụ cho Direction",
+      "picturable": false
+    },
+    {
+      "id": "91ea1db8-3d00-46cd-9355-0b8565c33c9a",
+      "deckId": "deck-850-basic",
+      "headword": "Discovery",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự khám phá",
+      "exampleEn": "Example for Discovery",
+      "exampleVi": "Ví dụ cho Discovery",
+      "picturable": false
+    },
+    {
+      "id": "58961814-195b-4737-bb8c-6ee9bf6b8f2e",
+      "deckId": "deck-850-basic",
+      "headword": "Discussion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thảo luận",
+      "exampleEn": "Example for Discussion",
+      "exampleVi": "Ví dụ cho Discussion",
+      "picturable": false
+    },
+    {
+      "id": "c52e2bc4-483f-4686-8412-5d8b28b84dba",
+      "deckId": "deck-850-basic",
+      "headword": "Disease",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bệnh tật",
+      "exampleEn": "Example for Disease",
+      "exampleVi": "Ví dụ cho Disease",
+      "picturable": false
+    },
+    {
+      "id": "8902bcab-6249-45dc-a97c-17d545aac0b6",
+      "deckId": "deck-850-basic",
+      "headword": "Disgust",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự ghê tởm",
+      "exampleEn": "Example for Disgust",
+      "exampleVi": "Ví dụ cho Disgust",
+      "picturable": false
+    },
+    {
+      "id": "7bd63fef-26ac-4694-bab5-16836c056273",
+      "deckId": "deck-850-basic",
+      "headword": "Distance",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khoảng cách",
+      "exampleEn": "Example for Distance",
+      "exampleVi": "Ví dụ cho Distance",
+      "picturable": false
+    },
+    {
+      "id": "59c7b863-455c-4ce5-8896-5253c3a1e6e6",
+      "deckId": "deck-850-basic",
+      "headword": "Distribution",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự phân phối",
+      "exampleEn": "Example for Distribution",
+      "exampleVi": "Ví dụ cho Distribution",
+      "picturable": false
+    },
+    {
+      "id": "55d921e6-acc4-41ab-b113-6bee26e2f5b6",
+      "deckId": "deck-850-basic",
+      "headword": "Division",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự phân chia",
+      "exampleEn": "Example for Division",
+      "exampleVi": "Ví dụ cho Division",
+      "picturable": false
+    },
+    {
+      "id": "2cff503f-5fd8-406d-af9e-9c72ea49122e",
+      "deckId": "deck-850-basic",
+      "headword": "Doubt",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự nghi ngờ",
+      "exampleEn": "Example for Doubt",
+      "exampleVi": "Ví dụ cho Doubt",
+      "picturable": false
+    },
+    {
+      "id": "647601ec-48fd-4f58-8059-cc9a25e91d67",
+      "deckId": "deck-850-basic",
+      "headword": "Drink",
+      "partOfSpeech": "verb",
+      "meaningVi": "Uống",
+      "exampleEn": "Example for Drink",
+      "exampleVi": "Ví dụ cho Drink",
+      "picturable": false
+    },
+    {
+      "id": "3bb87f5d-8283-45f5-9597-b3b8bab649dc",
+      "deckId": "deck-850-basic",
+      "headword": "Driving",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lái xe",
+      "exampleEn": "Example for Driving",
+      "exampleVi": "Ví dụ cho Driving",
+      "picturable": false
+    },
+    {
+      "id": "094dfab1-eb77-4aed-99cb-fa3adbb2b564",
+      "deckId": "deck-850-basic",
+      "headword": "Dust",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bụi bặm",
+      "exampleEn": "Example for Dust",
+      "exampleVi": "Ví dụ cho Dust",
+      "picturable": false
+    },
+    {
+      "id": "248cf13c-f2c5-449b-a1de-d5ffc0b8bffc",
+      "deckId": "deck-850-basic",
+      "headword": "Earth",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trái đất",
+      "exampleEn": "Example for Earth",
+      "exampleVi": "Ví dụ cho Earth",
+      "picturable": false
+    },
+    {
+      "id": "91338dbb-4de5-42f6-a1ee-7fe957007cbb",
+      "deckId": "deck-850-basic",
+      "headword": "Edge",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bờ mép",
+      "exampleEn": "Example for Edge",
+      "exampleVi": "Ví dụ cho Edge",
+      "picturable": false
+    },
+    {
+      "id": "576148ae-8f2b-4093-b401-b01aeb261649",
+      "deckId": "deck-850-basic",
+      "headword": "Education",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giáo dục",
+      "exampleEn": "Example for Education",
+      "exampleVi": "Ví dụ cho Education",
+      "picturable": false
+    },
+    {
+      "id": "35d1118f-0b18-49f3-ada1-8385c80bddcf",
+      "deckId": "deck-850-basic",
+      "headword": "Effect",
+      "partOfSpeech": "verb",
+      "meaningVi": "Tác động",
+      "exampleEn": "Example for Effect",
+      "exampleVi": "Ví dụ cho Effect",
+      "picturable": false
+    },
+    {
+      "id": "ecde523b-7e7a-40d2-a061-bd5c97646201",
+      "deckId": "deck-850-basic",
+      "headword": "End",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kết thúc",
+      "exampleEn": "Example for End",
+      "exampleVi": "Ví dụ cho End",
+      "picturable": false
+    },
+    {
+      "id": "77b99290-3c68-4351-8a15-d92db9098e0b",
+      "deckId": "deck-850-basic",
+      "headword": "Error",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lỗi",
+      "exampleEn": "Example for Error",
+      "exampleVi": "Ví dụ cho Error",
+      "picturable": false
+    },
+    {
+      "id": "5efdb5cc-faf8-4d6d-aedf-25488ec5d984",
+      "deckId": "deck-850-basic",
+      "headword": "Event",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự kiện",
+      "exampleEn": "Example for Event",
+      "exampleVi": "Ví dụ cho Event",
+      "picturable": false
+    },
+    {
+      "id": "fdd385d6-8464-4973-8790-632f51af63f4",
+      "deckId": "deck-850-basic",
+      "headword": "Example",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ví dụ",
+      "exampleEn": "Example for Example",
+      "exampleVi": "Ví dụ cho Example",
+      "picturable": false
+    },
+    {
+      "id": "6657f984-ad70-433b-ae1e-27ebc78df162",
+      "deckId": "deck-850-basic",
+      "headword": "Exchange",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trao đổi",
+      "exampleEn": "Example for Exchange",
+      "exampleVi": "Ví dụ cho Exchange",
+      "picturable": false
+    },
+    {
+      "id": "28142be8-7b4f-48e3-ae61-3122c597d469",
+      "deckId": "deck-850-basic",
+      "headword": "Existence",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự hiện hữu",
+      "exampleEn": "Example for Existence",
+      "exampleVi": "Ví dụ cho Existence",
+      "picturable": false
+    },
+    {
+      "id": "5421d460-e8a4-440f-8e44-9298e5ab405e",
+      "deckId": "deck-850-basic",
+      "headword": "Expansion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự bành trướng",
+      "exampleEn": "Example for Expansion",
+      "exampleVi": "Ví dụ cho Expansion",
+      "picturable": false
+    },
+    {
+      "id": "6aa56169-e05b-4e35-ad0e-f5ac940044c4",
+      "deckId": "deck-850-basic",
+      "headword": "Experience",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kinh nghiệm",
+      "exampleEn": "Example for Experience",
+      "exampleVi": "Ví dụ cho Experience",
+      "picturable": false
+    },
+    {
+      "id": "626c43de-3a13-410d-a05d-164ba2a2fe2c",
+      "deckId": "deck-850-basic",
+      "headword": "Expert",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chuyên gia",
+      "exampleEn": "Example for Expert",
+      "exampleVi": "Ví dụ cho Expert",
+      "picturable": false
+    },
+    {
+      "id": "ed8ca855-74e0-4174-a526-c87022b9c7be",
+      "deckId": "deck-850-basic",
+      "headword": "Fact",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thực tế",
+      "exampleEn": "Example for Fact",
+      "exampleVi": "Ví dụ cho Fact",
+      "picturable": false
+    },
+    {
+      "id": "2e41040f-ade6-4eb1-a11d-fb831fc791c8",
+      "deckId": "deck-850-basic",
+      "headword": "Fall",
+      "partOfSpeech": "noun",
+      "meaningVi": "Rơi, thác",
+      "exampleEn": "Example for Fall",
+      "exampleVi": "Ví dụ cho Fall",
+      "picturable": false
+    },
+    {
+      "id": "4546abd7-7c50-44e2-aa40-a7db5c183f5c",
+      "deckId": "deck-850-basic",
+      "headword": "Family",
+      "partOfSpeech": "noun",
+      "meaningVi": "Gia đình",
+      "exampleEn": "Example for Family",
+      "exampleVi": "Ví dụ cho Family",
+      "picturable": false
+    },
+    {
+      "id": "6384f693-54c7-4855-a8bf-9c6170ed1640",
+      "deckId": "deck-850-basic",
+      "headword": "Father",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cha",
+      "exampleEn": "Example for Father",
+      "exampleVi": "Ví dụ cho Father",
+      "picturable": false
+    },
+    {
+      "id": "07ae3302-0a08-4d3d-bb68-208d39bb3783",
+      "deckId": "deck-850-basic",
+      "headword": "Fear",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nỗi sợ hãi",
+      "exampleEn": "Example for Fear",
+      "exampleVi": "Ví dụ cho Fear",
+      "picturable": false
+    },
+    {
+      "id": "91f3d224-7d5c-4718-b09a-c1c0e403ef2c",
+      "deckId": "deck-850-basic",
+      "headword": "Feeling",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cảm xúc",
+      "exampleEn": "Example for Feeling",
+      "exampleVi": "Ví dụ cho Feeling",
+      "picturable": false
+    },
+    {
+      "id": "3aebee9d-bc71-4c50-8f82-11395b23fb2e",
+      "deckId": "deck-850-basic",
+      "headword": "Fiction",
+      "partOfSpeech": "noun",
+      "meaningVi": "Viễn tưởng",
+      "exampleEn": "Example for Fiction",
+      "exampleVi": "Ví dụ cho Fiction",
+      "picturable": false
+    },
+    {
+      "id": "211f79d3-e180-4cb7-8e4e-1e08382ca771",
+      "deckId": "deck-850-basic",
+      "headword": "Field",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lĩnh vực",
+      "exampleEn": "Example for Field",
+      "exampleVi": "Ví dụ cho Field",
+      "picturable": false
+    },
+    {
+      "id": "39f313ae-e593-4798-8d1c-a2c261a5f014",
+      "deckId": "deck-850-basic",
+      "headword": "Fight",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cuộc chiến",
+      "exampleEn": "Example for Fight",
+      "exampleVi": "Ví dụ cho Fight",
+      "picturable": false
+    },
+    {
+      "id": "1c48c6c0-7054-4409-b4df-fdc8fc9e3725",
+      "deckId": "deck-850-basic",
+      "headword": "Fire",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lửa",
+      "exampleEn": "Example for Fire",
+      "exampleVi": "Ví dụ cho Fire",
+      "picturable": false
+    },
+    {
+      "id": "0672ef71-06ee-41a7-a211-e3c7ac91be84",
+      "deckId": "deck-850-basic",
+      "headword": "Flame",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngọn lửa",
+      "exampleEn": "Example for Flame",
+      "exampleVi": "Ví dụ cho Flame",
+      "picturable": false
+    },
+    {
+      "id": "7d2b41cb-e186-434f-a2cd-fc920fc7dc4e",
+      "deckId": "deck-850-basic",
+      "headword": "Flight",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chuyến bay",
+      "exampleEn": "Example for Flight",
+      "exampleVi": "Ví dụ cho Flight",
+      "picturable": false
+    },
+    {
+      "id": "bbd70ab5-0293-4350-a7df-65ad8e991e77",
+      "deckId": "deck-850-basic",
+      "headword": "Flower",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bông hoa",
+      "exampleEn": "Example for Flower",
+      "exampleVi": "Ví dụ cho Flower",
+      "picturable": false
+    },
+    {
+      "id": "f5d8a71c-d236-406b-8ec9-d23234716011",
+      "deckId": "deck-850-basic",
+      "headword": "Fold",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nếp gấp",
+      "exampleEn": "Example for Fold",
+      "exampleVi": "Ví dụ cho Fold",
+      "picturable": false
+    },
+    {
+      "id": "a4dec6b8-b64a-4eb9-9667-7dd3d3efe8dc",
+      "deckId": "deck-850-basic",
+      "headword": "Food",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thức ăn",
+      "exampleEn": "Example for Food",
+      "exampleVi": "Ví dụ cho Food",
+      "picturable": false
+    },
+    {
+      "id": "90d7e9ec-4cb1-4e82-ae3d-9eaa68dc48f2",
+      "deckId": "deck-850-basic",
+      "headword": "Force",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lực lượng",
+      "exampleEn": "Example for Force",
+      "exampleVi": "Ví dụ cho Force",
+      "picturable": false
+    },
+    {
+      "id": "a84dedd2-2323-49cc-98e7-7d3d9f9074d9",
+      "deckId": "deck-850-basic",
+      "headword": "Form",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hình thức",
+      "exampleEn": "Example for Form",
+      "exampleVi": "Ví dụ cho Form",
+      "picturable": false
+    },
+    {
+      "id": "7d2a4408-d954-430f-b3e2-e6df72a07c90",
+      "deckId": "deck-850-basic",
+      "headword": "Friend",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bạn hữu",
+      "exampleEn": "Example for Friend",
+      "exampleVi": "Ví dụ cho Friend",
+      "picturable": false
+    },
+    {
+      "id": "3d6568a8-e76a-4199-b2df-b7d88ddcea3c",
+      "deckId": "deck-850-basic",
+      "headword": "Front",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phía trước",
+      "exampleEn": "Example for Front",
+      "exampleVi": "Ví dụ cho Front",
+      "picturable": false
+    },
+    {
+      "id": "fff5a14e-6e45-4765-932c-cb55266a15da",
+      "deckId": "deck-850-basic",
+      "headword": "Fruit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trái cây",
+      "exampleEn": "Example for Fruit",
+      "exampleVi": "Ví dụ cho Fruit",
+      "picturable": false
+    },
+    {
+      "id": "ff11e4b0-299a-4475-a45b-cf761a56e5a0",
+      "deckId": "deck-850-basic",
+      "headword": "Glass",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kính, gương",
+      "exampleEn": "Example for Glass",
+      "exampleVi": "Ví dụ cho Glass",
+      "picturable": false
+    },
+    {
+      "id": "0a052c25-0e34-4ab6-b194-d5b35ebc3050",
+      "deckId": "deck-850-basic",
+      "headword": "Gold",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vàng",
+      "exampleEn": "Example for Gold",
+      "exampleVi": "Ví dụ cho Gold",
+      "picturable": false
+    },
+    {
+      "id": "d6a04ed4-9b0e-48d3-b2d3-4ef69018b6fd",
+      "deckId": "deck-850-basic",
+      "headword": "Government",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chính phủ",
+      "exampleEn": "Example for Government",
+      "exampleVi": "Ví dụ cho Government",
+      "picturable": false
+    },
+    {
+      "id": "4d5d5a0a-1604-490a-96c6-f344e62e1f79",
+      "deckId": "deck-850-basic",
+      "headword": "Grain",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hạt",
+      "exampleEn": "Example for Grain",
+      "exampleVi": "Ví dụ cho Grain",
+      "picturable": false
+    },
+    {
+      "id": "4aa85db7-f0fd-4635-919f-06a03c8c6f64",
+      "deckId": "deck-850-basic",
+      "headword": "Grass",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cỏ",
+      "exampleEn": "Example for Grass",
+      "exampleVi": "Ví dụ cho Grass",
+      "picturable": false
+    },
+    {
+      "id": "7e6582f4-1b2c-41f1-9bc0-8bceea08a790",
+      "deckId": "deck-850-basic",
+      "headword": "Grip",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự nắm chắc",
+      "exampleEn": "Example for Grip",
+      "exampleVi": "Ví dụ cho Grip",
+      "picturable": false
+    },
+    {
+      "id": "25bde326-31ee-4a1e-b756-e863260b4e6d",
+      "deckId": "deck-850-basic",
+      "headword": "Group",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nhóm",
+      "exampleEn": "Example for Group",
+      "exampleVi": "Ví dụ cho Group",
+      "picturable": false
+    },
+    {
+      "id": "eab69fcc-c01c-4cf0-bf9d-791c541930c4",
+      "deckId": "deck-850-basic",
+      "headword": "Growth",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự phát triển",
+      "exampleEn": "Example for Growth",
+      "exampleVi": "Ví dụ cho Growth",
+      "picturable": false
+    },
+    {
+      "id": "62fd750e-6b76-4964-b060-8c54606cbc0f",
+      "deckId": "deck-850-basic",
+      "headword": "Guide",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hướng dẫn",
+      "exampleEn": "Example for Guide",
+      "exampleVi": "Ví dụ cho Guide",
+      "picturable": false
+    },
+    {
+      "id": "61f28510-3d97-4cbb-a471-9fd2dc895088",
+      "deckId": "deck-850-basic",
+      "headword": "Harbour",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hải cảng",
+      "exampleEn": "Example for Harbour",
+      "exampleVi": "Ví dụ cho Harbour",
+      "picturable": false
+    },
+    {
+      "id": "7635c3f1-21eb-49a4-a12e-ad964cc4fb35",
+      "deckId": "deck-850-basic",
+      "headword": "Harmony",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự hòa hợp",
+      "exampleEn": "Example for Harmony",
+      "exampleVi": "Ví dụ cho Harmony",
+      "picturable": false
+    },
+    {
+      "id": "7ccabb28-2099-407d-8760-a469f38edac2",
+      "deckId": "deck-850-basic",
+      "headword": "Hate",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ghét",
+      "exampleEn": "Example for Hate",
+      "exampleVi": "Ví dụ cho Hate",
+      "picturable": false
+    },
+    {
+      "id": "94583389-98af-43c1-89b5-931fb4ed3aed",
+      "deckId": "deck-850-basic",
+      "headword": "Hearing",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự nghe",
+      "exampleEn": "Example for Hearing",
+      "exampleVi": "Ví dụ cho Hearing",
+      "picturable": false
+    },
+    {
+      "id": "35ceed48-1660-4661-9dad-c5889821765b",
+      "deckId": "deck-850-basic",
+      "headword": "Heat",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sức nóng",
+      "exampleEn": "Example for Heat",
+      "exampleVi": "Ví dụ cho Heat",
+      "picturable": false
+    },
+    {
+      "id": "18777eb8-c880-4c8d-9cb0-0b5c63f8cec6",
+      "deckId": "deck-850-basic",
+      "headword": "Help",
+      "partOfSpeech": "verb",
+      "meaningVi": "Giúp đỡ",
+      "exampleEn": "Example for Help",
+      "exampleVi": "Ví dụ cho Help",
+      "picturable": false
+    },
+    {
+      "id": "3f180f02-25be-4ca6-88da-eb39aa8571dd",
+      "deckId": "deck-850-basic",
+      "headword": "History",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lịch sử",
+      "exampleEn": "Example for History",
+      "exampleVi": "Ví dụ cho History",
+      "picturable": false
+    },
+    {
+      "id": "36ce32b0-5b6e-43fa-b869-5b54e98c6ee8",
+      "deckId": "deck-850-basic",
+      "headword": "Hole",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cái lỗ",
+      "exampleEn": "Example for Hole",
+      "exampleVi": "Ví dụ cho Hole",
+      "picturable": false
+    },
+    {
+      "id": "c901df6d-0c4b-4db4-aea4-d08b631aad8f",
+      "deckId": "deck-850-basic",
+      "headword": "Hope",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hy vọng",
+      "exampleEn": "Example for Hope",
+      "exampleVi": "Ví dụ cho Hope",
+      "picturable": false
+    },
+    {
+      "id": "7a39a3f1-dd88-4a0d-85be-5bdb0cd5b23a",
+      "deckId": "deck-850-basic",
+      "headword": "Hour",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giờ",
+      "exampleEn": "Example for Hour",
+      "exampleVi": "Ví dụ cho Hour",
+      "picturable": false
+    },
+    {
+      "id": "61a22e34-e14d-4f91-8b46-8d12f040201e",
+      "deckId": "deck-850-basic",
+      "headword": "Humour",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hài hước",
+      "exampleEn": "Example for Humour",
+      "exampleVi": "Ví dụ cho Humour",
+      "picturable": false
+    },
+    {
+      "id": "b9916646-cdac-424a-a666-c11bf4492b3d",
+      "deckId": "deck-850-basic",
+      "headword": "Ice",
+      "partOfSpeech": "noun",
+      "meaningVi": "Băng, nước đá",
+      "exampleEn": "Example for Ice",
+      "exampleVi": "Ví dụ cho Ice",
+      "picturable": false
+    },
+    {
+      "id": "18684616-39e0-4181-9e3f-4362e74cdbdd",
+      "deckId": "deck-850-basic",
+      "headword": "Idea",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ý tưởng",
+      "exampleEn": "Example for Idea",
+      "exampleVi": "Ví dụ cho Idea",
+      "picturable": false
+    },
+    {
+      "id": "bc2ef9d0-5e03-45ff-b5b9-4bb3f0d4149c",
+      "deckId": "deck-850-basic",
+      "headword": "Impulse",
+      "partOfSpeech": "noun",
+      "meaningVi": "Xúc động",
+      "exampleEn": "Example for Impulse",
+      "exampleVi": "Ví dụ cho Impulse",
+      "picturable": false
+    },
+    {
+      "id": "916c2ea8-da50-4761-a689-513ff94d4a25",
+      "deckId": "deck-850-basic",
+      "headword": "Increase",
+      "partOfSpeech": "verb",
+      "meaningVi": "Gia tăng",
+      "exampleEn": "Example for Increase",
+      "exampleVi": "Ví dụ cho Increase",
+      "picturable": false
+    },
+    {
+      "id": "07203666-8df8-40c1-8530-c8f6b6d50c34",
+      "deckId": "deck-850-basic",
+      "headword": "Industry",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngành CN",
+      "exampleEn": "Example for Industry",
+      "exampleVi": "Ví dụ cho Industry",
+      "picturable": false
+    },
+    {
+      "id": "7afb0c84-3e70-4fcf-af1e-fd58da8ade64",
+      "deckId": "deck-850-basic",
+      "headword": "Ink",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mực",
+      "exampleEn": "Example for Ink",
+      "exampleVi": "Ví dụ cho Ink",
+      "picturable": false
+    },
+    {
+      "id": "14f824ab-fb05-469c-becc-723a5c7381ac",
+      "deckId": "deck-850-basic",
+      "headword": "Insect",
+      "partOfSpeech": "noun",
+      "meaningVi": "Côn trùng",
+      "exampleEn": "Example for Insect",
+      "exampleVi": "Ví dụ cho Insect",
+      "picturable": false
+    },
+    {
+      "id": "9dc74fbb-e3f5-4fc8-a31f-d762cfdbfc58",
+      "deckId": "deck-850-basic",
+      "headword": "Instrument",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dụng cụ",
+      "exampleEn": "Example for Instrument",
+      "exampleVi": "Ví dụ cho Instrument",
+      "picturable": false
+    },
+    {
+      "id": "d2531bc7-5994-43bb-bcc7-14cecf5b1c4b",
+      "deckId": "deck-850-basic",
+      "headword": "Insurance",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bảo hiểm",
+      "exampleEn": "Example for Insurance",
+      "exampleVi": "Ví dụ cho Insurance",
+      "picturable": false
+    },
+    {
+      "id": "a246d054-1487-4a94-bd05-d4abb9313393",
+      "deckId": "deck-850-basic",
+      "headword": "Interest",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mối quan tâm",
+      "exampleEn": "Example for Interest",
+      "exampleVi": "Ví dụ cho Interest",
+      "picturable": false
+    },
+    {
+      "id": "129b09f3-adaf-4235-b8d3-0de6566abdbe",
+      "deckId": "deck-850-basic",
+      "headword": "Invention",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phát minh",
+      "exampleEn": "Example for Invention",
+      "exampleVi": "Ví dụ cho Invention",
+      "picturable": false
+    },
+    {
+      "id": "ce05bc9a-c4f5-4692-87ae-ff63dc9f020c",
+      "deckId": "deck-850-basic",
+      "headword": "Iron",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sắt",
+      "exampleEn": "Example for Iron",
+      "exampleVi": "Ví dụ cho Iron",
+      "picturable": false
+    },
+    {
+      "id": "35debce5-1d06-4253-8551-9e3f2e81c9b9",
+      "deckId": "deck-850-basic",
+      "headword": "Jelly",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thạch",
+      "exampleEn": "Example for Jelly",
+      "exampleVi": "Ví dụ cho Jelly",
+      "picturable": false
+    },
+    {
+      "id": "236964d4-aa5d-4581-bba4-42901aca4ebb",
+      "deckId": "deck-850-basic",
+      "headword": "Join",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mối nối",
+      "exampleEn": "Example for Join",
+      "exampleVi": "Ví dụ cho Join",
+      "picturable": false
+    },
+    {
+      "id": "039d2d3d-6d61-44bc-9432-6990d800557e",
+      "deckId": "deck-850-basic",
+      "headword": "Journey",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chuyến đi",
+      "exampleEn": "Example for Journey",
+      "exampleVi": "Ví dụ cho Journey",
+      "picturable": false
+    },
+    {
+      "id": "c40b3849-29de-46f4-b365-49da8ce1030d",
+      "deckId": "deck-850-basic",
+      "headword": "Judge",
+      "partOfSpeech": "verb",
+      "meaningVi": "Phán xử",
+      "exampleEn": "Example for Judge",
+      "exampleVi": "Ví dụ cho Judge",
+      "picturable": false
+    },
+    {
+      "id": "56a3a375-f9be-4092-a34e-eee012406660",
+      "deckId": "deck-850-basic",
+      "headword": "Jump",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nhảy",
+      "exampleEn": "Example for Jump",
+      "exampleVi": "Ví dụ cho Jump",
+      "picturable": false
+    },
+    {
+      "id": "7cada3c5-4744-48c4-9b62-ca09bdb44447",
+      "deckId": "deck-850-basic",
+      "headword": "Kick",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đá",
+      "exampleEn": "Example for Kick",
+      "exampleVi": "Ví dụ cho Kick",
+      "picturable": false
+    },
+    {
+      "id": "87e373c0-65ac-4122-88c4-b41268d73578",
+      "deckId": "deck-850-basic",
+      "headword": "Kiss",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hôn",
+      "exampleEn": "Example for Kiss",
+      "exampleVi": "Ví dụ cho Kiss",
+      "picturable": false
+    },
+    {
+      "id": "18b6785b-1be0-496c-bdea-1481e7223cd4",
+      "deckId": "deck-850-basic",
+      "headword": "Knowledge",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kiến thức",
+      "exampleEn": "Example for Knowledge",
+      "exampleVi": "Ví dụ cho Knowledge",
+      "picturable": false
+    },
+    {
+      "id": "4ef7c4f4-8780-4d08-aff2-eb389925732f",
+      "deckId": "deck-850-basic",
+      "headword": "Land",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đất",
+      "exampleEn": "Example for Land",
+      "exampleVi": "Ví dụ cho Land",
+      "picturable": false
+    },
+    {
+      "id": "0ec13542-6a7d-4562-a7af-8668ccca6b58",
+      "deckId": "deck-850-basic",
+      "headword": "Language",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngôn ngữ",
+      "exampleEn": "Example for Language",
+      "exampleVi": "Ví dụ cho Language",
+      "picturable": false
+    },
+    {
+      "id": "c686bf34-590a-4e48-b58c-dcb1bb6222a4",
+      "deckId": "deck-850-basic",
+      "headword": "Laugh",
+      "partOfSpeech": "verb",
+      "meaningVi": "Cười",
+      "exampleEn": "Example for Laugh",
+      "exampleVi": "Ví dụ cho Laugh",
+      "picturable": false
+    },
+    {
+      "id": "916f2bca-83cc-438a-a8c6-c03ee0be474b",
+      "deckId": "deck-850-basic",
+      "headword": "Law",
+      "partOfSpeech": "noun",
+      "meaningVi": "Luật",
+      "exampleEn": "Example for Law",
+      "exampleVi": "Ví dụ cho Law",
+      "picturable": false
+    },
+    {
+      "id": "f2520f8f-ce4f-4ceb-b027-b42327c4fb83",
+      "deckId": "deck-850-basic",
+      "headword": "Lead",
+      "partOfSpeech": "verb",
+      "meaningVi": "Dẫn đến",
+      "exampleEn": "Example for Lead",
+      "exampleVi": "Ví dụ cho Lead",
+      "picturable": false
+    },
+    {
+      "id": "9c1da9c9-b8ff-4ef5-940f-924494a90e91",
+      "deckId": "deck-850-basic",
+      "headword": "Learning",
+      "partOfSpeech": "noun",
+      "meaningVi": "Học tập",
+      "exampleEn": "Example for Learning",
+      "exampleVi": "Ví dụ cho Learning",
+      "picturable": false
+    },
+    {
+      "id": "2bc4d5de-b80c-4d36-a87e-10e2e1329448",
+      "deckId": "deck-850-basic",
+      "headword": "Leather",
+      "partOfSpeech": "noun",
+      "meaningVi": "Da",
+      "exampleEn": "Example for Leather",
+      "exampleVi": "Ví dụ cho Leather",
+      "picturable": false
+    },
+    {
+      "id": "a9e66c76-8f44-4abc-b1ae-c23e3179633a",
+      "deckId": "deck-850-basic",
+      "headword": "Letter",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thư, chữ cái",
+      "exampleEn": "Example for Letter",
+      "exampleVi": "Ví dụ cho Letter",
+      "picturable": false
+    },
+    {
+      "id": "3d518f59-5a9d-4eb3-93c0-e7e41cd3470a",
+      "deckId": "deck-850-basic",
+      "headword": "Level",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mức",
+      "exampleEn": "Example for Level",
+      "exampleVi": "Ví dụ cho Level",
+      "picturable": false
+    },
+    {
+      "id": "ce90a7c2-fc3b-49f5-bc63-76cfbd83fb5e",
+      "deckId": "deck-850-basic",
+      "headword": "Lift",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thang máy",
+      "exampleEn": "Example for Lift",
+      "exampleVi": "Ví dụ cho Lift",
+      "picturable": false
+    },
+    {
+      "id": "9cfb72f5-169c-4707-904a-ca90eeb12781",
+      "deckId": "deck-850-basic",
+      "headword": "Light",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ánh sáng",
+      "exampleEn": "Example for Light",
+      "exampleVi": "Ví dụ cho Light",
+      "picturable": false
+    },
+    {
+      "id": "5248f5c3-19c2-4cb7-bbcf-9d23b0930d03",
+      "deckId": "deck-850-basic",
+      "headword": "Limit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giới hạn",
+      "exampleEn": "Example for Limit",
+      "exampleVi": "Ví dụ cho Limit",
+      "picturable": false
+    },
+    {
+      "id": "8912970a-af45-48fd-b596-2eac5ef062c4",
+      "deckId": "deck-850-basic",
+      "headword": "Linen",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vải lanh",
+      "exampleEn": "Example for Linen",
+      "exampleVi": "Ví dụ cho Linen",
+      "picturable": false
+    },
+    {
+      "id": "bbe4a312-70e9-4f4e-a5c3-6fd5bef354e5",
+      "deckId": "deck-850-basic",
+      "headword": "Liquid",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chất lỏng",
+      "exampleEn": "Example for Liquid",
+      "exampleVi": "Ví dụ cho Liquid",
+      "picturable": false
+    },
+    {
+      "id": "a314bacf-d26c-4be5-89a1-7596f02cdc13",
+      "deckId": "deck-850-basic",
+      "headword": "List",
+      "partOfSpeech": "noun",
+      "meaningVi": "Danh sách",
+      "exampleEn": "Example for List",
+      "exampleVi": "Ví dụ cho List",
+      "picturable": false
+    },
+    {
+      "id": "074a6351-d46b-4398-b246-a84cf29b80db",
+      "deckId": "deck-850-basic",
+      "headword": "Look",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nhìn",
+      "exampleEn": "Example for Look",
+      "exampleVi": "Ví dụ cho Look",
+      "picturable": false
+    },
+    {
+      "id": "d1b8906b-d9e0-45d4-b5eb-56c44a94c727",
+      "deckId": "deck-850-basic",
+      "headword": "Loss",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mất",
+      "exampleEn": "Example for Loss",
+      "exampleVi": "Ví dụ cho Loss",
+      "picturable": false
+    },
+    {
+      "id": "bd07c0ec-00b0-49dd-80f7-3fee1b4d46df",
+      "deckId": "deck-850-basic",
+      "headword": "Love",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tình yêu",
+      "exampleEn": "Example for Love",
+      "exampleVi": "Ví dụ cho Love",
+      "picturable": false
+    },
+    {
+      "id": "50ca092e-eb2b-4e9d-8d4c-bd34112eb1fa",
+      "deckId": "deck-850-basic",
+      "headword": "Machine",
+      "partOfSpeech": "noun",
+      "meaningVi": "Máy móc",
+      "exampleEn": "Example for Machine",
+      "exampleVi": "Ví dụ cho Machine",
+      "picturable": false
+    },
+    {
+      "id": "d1384603-7604-456e-a9f9-4113fd3d8133",
+      "deckId": "deck-850-basic",
+      "headword": "Man",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người, đàn ông",
+      "exampleEn": "Example for Man",
+      "exampleVi": "Ví dụ cho Man",
+      "picturable": false
+    },
+    {
+      "id": "550f8a4f-24fb-4f65-8daf-09546b7ca975",
+      "deckId": "deck-850-basic",
+      "headword": "Manager",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người quản lý",
+      "exampleEn": "Example for Manager",
+      "exampleVi": "Ví dụ cho Manager",
+      "picturable": false
+    },
+    {
+      "id": "18d4115f-3b64-49ad-905a-76260e50dc44",
+      "deckId": "deck-850-basic",
+      "headword": "Mark",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dấu vết",
+      "exampleEn": "Example for Mark",
+      "exampleVi": "Ví dụ cho Mark",
+      "picturable": false
+    },
+    {
+      "id": "acf5c803-4a23-4214-9952-d7b21e7f53aa",
+      "deckId": "deck-850-basic",
+      "headword": "Market",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chợ",
+      "exampleEn": "Example for Market",
+      "exampleVi": "Ví dụ cho Market",
+      "picturable": false
+    },
+    {
+      "id": "23886025-de64-449a-bd0a-59329f33fdbe",
+      "deckId": "deck-850-basic",
+      "headword": "Mass",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khối lượng",
+      "exampleEn": "Example for Mass",
+      "exampleVi": "Ví dụ cho Mass",
+      "picturable": false
+    },
+    {
+      "id": "9156e53d-9f43-48ac-be84-a40e23b0a453",
+      "deckId": "deck-850-basic",
+      "headword": "Meal",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bữa ăn",
+      "exampleEn": "Example for Meal",
+      "exampleVi": "Ví dụ cho Meal",
+      "picturable": false
+    },
+    {
+      "id": "2236eec7-e415-428c-8b85-a1b9e2a9639c",
+      "deckId": "deck-850-basic",
+      "headword": "Measure",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đo lường",
+      "exampleEn": "Example for Measure",
+      "exampleVi": "Ví dụ cho Measure",
+      "picturable": false
+    },
+    {
+      "id": "d70332c9-a3ca-4589-a62d-4f1376b9d544",
+      "deckId": "deck-850-basic",
+      "headword": "Meat",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thịt",
+      "exampleEn": "Example for Meat",
+      "exampleVi": "Ví dụ cho Meat",
+      "picturable": false
+    },
+    {
+      "id": "25355b41-9230-4071-b169-e595cf994681",
+      "deckId": "deck-850-basic",
+      "headword": "Meeting",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cuộc họp",
+      "exampleEn": "Example for Meeting",
+      "exampleVi": "Ví dụ cho Meeting",
+      "picturable": false
+    },
+    {
+      "id": "7013e36c-4ff0-4905-967e-0dce21eb248b",
+      "deckId": "deck-850-basic",
+      "headword": "Memory",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trí nhớ",
+      "exampleEn": "Example for Memory",
+      "exampleVi": "Ví dụ cho Memory",
+      "picturable": false
+    },
+    {
+      "id": "f5c0c9f7-27ae-4325-b6a9-6afe96f804fa",
+      "deckId": "deck-850-basic",
+      "headword": "Metal",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kim loại",
+      "exampleEn": "Example for Metal",
+      "exampleVi": "Ví dụ cho Metal",
+      "picturable": false
+    },
+    {
+      "id": "71a321c3-466c-4deb-b1e1-6da5ae76e21e",
+      "deckId": "deck-850-basic",
+      "headword": "Middle",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ở giữa",
+      "exampleEn": "Example for Middle",
+      "exampleVi": "Ví dụ cho Middle",
+      "picturable": false
+    },
+    {
+      "id": "01f91ad8-1a4a-4f66-8e1e-6aea15d03150",
+      "deckId": "deck-850-basic",
+      "headword": "Milk",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sữa",
+      "exampleEn": "Example for Milk",
+      "exampleVi": "Ví dụ cho Milk",
+      "picturable": false
+    },
+    {
+      "id": "056848aa-1525-4a79-8250-99baeabf93e3",
+      "deckId": "deck-850-basic",
+      "headword": "Mind",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tâm trí",
+      "exampleEn": "Example for Mind",
+      "exampleVi": "Ví dụ cho Mind",
+      "picturable": false
+    },
+    {
+      "id": "b6d15a4d-64c3-4eca-a7ae-3252a6aa3855",
+      "deckId": "deck-850-basic",
+      "headword": "Mine",
+      "partOfSpeech": "noun",
+      "meaningVi": "Của tôi",
+      "exampleEn": "Example for Mine",
+      "exampleVi": "Ví dụ cho Mine",
+      "picturable": false
+    },
+    {
+      "id": "a13e0afb-f755-4c91-a57f-ae0248a24f28",
+      "deckId": "deck-850-basic",
+      "headword": "Minute",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phút",
+      "exampleEn": "Example for Minute",
+      "exampleVi": "Ví dụ cho Minute",
+      "picturable": false
+    },
+    {
+      "id": "e9510a4f-176d-412d-a24d-f69431c2dbb0",
+      "deckId": "deck-850-basic",
+      "headword": "Mist",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sương mù",
+      "exampleEn": "Example for Mist",
+      "exampleVi": "Ví dụ cho Mist",
+      "picturable": false
+    },
+    {
+      "id": "23d59715-afe2-4ea7-8cf0-1e503013105c",
+      "deckId": "deck-850-basic",
+      "headword": "Money",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tiền",
+      "exampleEn": "Example for Money",
+      "exampleVi": "Ví dụ cho Money",
+      "picturable": false
+    },
+    {
+      "id": "20e32075-75ed-4023-9f27-8d9b95f0de42",
+      "deckId": "deck-850-basic",
+      "headword": "Month",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tháng",
+      "exampleEn": "Example for Month",
+      "exampleVi": "Ví dụ cho Month",
+      "picturable": false
+    },
+    {
+      "id": "bd480cc4-f2d2-45d5-b5a4-5f6b7e4f642c",
+      "deckId": "deck-850-basic",
+      "headword": "Morning",
+      "partOfSpeech": "noun",
+      "meaningVi": "Buổi sáng",
+      "exampleEn": "Example for Morning",
+      "exampleVi": "Ví dụ cho Morning",
+      "picturable": false
+    },
+    {
+      "id": "7d0323fc-8980-4044-9ad8-d7abe1eccca5",
+      "deckId": "deck-850-basic",
+      "headword": "Mother",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mẹ",
+      "exampleEn": "Example for Mother",
+      "exampleVi": "Ví dụ cho Mother",
+      "picturable": false
+    },
+    {
+      "id": "517c9f88-12d5-4bd0-b8bc-c3a9a19e8de5",
+      "deckId": "deck-850-basic",
+      "headword": "Motion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chuyển động",
+      "exampleEn": "Example for Motion",
+      "exampleVi": "Ví dụ cho Motion",
+      "picturable": false
+    },
+    {
+      "id": "14a05591-ab0a-48dd-8f55-9db5de831460",
+      "deckId": "deck-850-basic",
+      "headword": "Mountain",
+      "partOfSpeech": "noun",
+      "meaningVi": "Núi",
+      "exampleEn": "Example for Mountain",
+      "exampleVi": "Ví dụ cho Mountain",
+      "picturable": false
+    },
+    {
+      "id": "ed32be93-cdb2-48d2-b2a9-729e57bf2057",
+      "deckId": "deck-850-basic",
+      "headword": "Move",
+      "partOfSpeech": "verb",
+      "meaningVi": "Di chuyển",
+      "exampleEn": "Example for Move",
+      "exampleVi": "Ví dụ cho Move",
+      "picturable": false
+    },
+    {
+      "id": "3cc1706e-5f06-4526-8086-a87dfaba8bea",
+      "deckId": "deck-850-basic",
+      "headword": "Music",
+      "partOfSpeech": "noun",
+      "meaningVi": "Âm nhạc",
+      "exampleEn": "Example for Music",
+      "exampleVi": "Ví dụ cho Music",
+      "picturable": false
+    },
+    {
+      "id": "49e5dc64-0b4f-4727-a5ee-1a68d434f23d",
+      "deckId": "deck-850-basic",
+      "headword": "Name",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tên",
+      "exampleEn": "Example for Name",
+      "exampleVi": "Ví dụ cho Name",
+      "picturable": false
+    },
+    {
+      "id": "8dabe67d-1c4e-45f8-bfe7-00c6e464e8d6",
+      "deckId": "deck-850-basic",
+      "headword": "Nation",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quốc gia",
+      "exampleEn": "Example for Nation",
+      "exampleVi": "Ví dụ cho Nation",
+      "picturable": false
+    },
+    {
+      "id": "94d60c40-6f02-4162-926c-e7426fdb1a75",
+      "deckId": "deck-850-basic",
+      "headword": "Need",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nhu cầu",
+      "exampleEn": "Example for Need",
+      "exampleVi": "Ví dụ cho Need",
+      "picturable": false
+    },
+    {
+      "id": "cb958eb0-7e71-463d-a8e0-e2b489245bb4",
+      "deckId": "deck-850-basic",
+      "headword": "News",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tin tức",
+      "exampleEn": "Example for News",
+      "exampleVi": "Ví dụ cho News",
+      "picturable": false
+    },
+    {
+      "id": "3148f212-c2dd-4e29-bad5-fb3d1c34b5ce",
+      "deckId": "deck-850-basic",
+      "headword": "Night",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đêm",
+      "exampleEn": "Example for Night",
+      "exampleVi": "Ví dụ cho Night",
+      "picturable": false
+    },
+    {
+      "id": "0f86c60b-fff1-4420-95ec-d9b0551d3597",
+      "deckId": "deck-850-basic",
+      "headword": "Noise",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tiếng ồn",
+      "exampleEn": "Example for Noise",
+      "exampleVi": "Ví dụ cho Noise",
+      "picturable": false
+    },
+    {
+      "id": "f0b8380d-9ec7-4f93-a10d-7ea108dff0f1",
+      "deckId": "deck-850-basic",
+      "headword": "Note",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ghi chú",
+      "exampleEn": "Example for Note",
+      "exampleVi": "Ví dụ cho Note",
+      "picturable": false
+    },
+    {
+      "id": "0d21ec28-3016-485b-a4d8-fea47740d6bb",
+      "deckId": "deck-850-basic",
+      "headword": "Number",
+      "partOfSpeech": "noun",
+      "meaningVi": "Số",
+      "exampleEn": "Example for Number",
+      "exampleVi": "Ví dụ cho Number",
+      "picturable": false
+    },
+    {
+      "id": "ed99f654-d2be-4ca8-9261-823809e0576e",
+      "deckId": "deck-850-basic",
+      "headword": "Observation",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự quan sát",
+      "exampleEn": "Example for Observation",
+      "exampleVi": "Ví dụ cho Observation",
+      "picturable": false
+    },
+    {
+      "id": "bfbb5bf2-c08b-45a8-a20e-fbde3017941c",
+      "deckId": "deck-850-basic",
+      "headword": "Offer",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đề nghị",
+      "exampleEn": "Example for Offer",
+      "exampleVi": "Ví dụ cho Offer",
+      "picturable": false
+    },
+    {
+      "id": "9819998d-9dff-4914-a7d8-e4f881f14d4d",
+      "deckId": "deck-850-basic",
+      "headword": "Oil",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dầu",
+      "exampleEn": "Example for Oil",
+      "exampleVi": "Ví dụ cho Oil",
+      "picturable": false
+    },
+    {
+      "id": "cd358db0-92f9-40d8-b14a-2f0c6005e899",
+      "deckId": "deck-850-basic",
+      "headword": "Operation",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hoạt động",
+      "exampleEn": "Example for Operation",
+      "exampleVi": "Ví dụ cho Operation",
+      "picturable": false
+    },
+    {
+      "id": "62806976-5dc2-477b-9a3b-bbfc1c39a880",
+      "deckId": "deck-850-basic",
+      "headword": "Opinion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ý kiến",
+      "exampleEn": "Example for Opinion",
+      "exampleVi": "Ví dụ cho Opinion",
+      "picturable": false
+    },
+    {
+      "id": "4026fa76-06d1-4c77-8654-855eef6e6328",
+      "deckId": "deck-850-basic",
+      "headword": "Order",
+      "partOfSpeech": "noun",
+      "meaningVi": "Yêu cầu",
+      "exampleEn": "Example for Order",
+      "exampleVi": "Ví dụ cho Order",
+      "picturable": false
+    },
+    {
+      "id": "bc68a1e7-c65e-4ae9-a090-3445c75a6386",
+      "deckId": "deck-850-basic",
+      "headword": "Organization",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tổ chức",
+      "exampleEn": "Example for Organization",
+      "exampleVi": "Ví dụ cho Organization",
+      "picturable": false
+    },
+    {
+      "id": "9ec09a19-9b10-410f-a853-402931431c97",
+      "deckId": "deck-850-basic",
+      "headword": "Ornament",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trang hoàng",
+      "exampleEn": "Example for Ornament",
+      "exampleVi": "Ví dụ cho Ornament",
+      "picturable": false
+    },
+    {
+      "id": "375f9e9b-6e9f-46a6-b060-867d49cf8319",
+      "deckId": "deck-850-basic",
+      "headword": "Owner",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người chủ",
+      "exampleEn": "Example for Owner",
+      "exampleVi": "Ví dụ cho Owner",
+      "picturable": false
+    },
+    {
+      "id": "fdbb78bd-8919-4fd4-a122-f1a19bc37e1e",
+      "deckId": "deck-850-basic",
+      "headword": "Page",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trang",
+      "exampleEn": "Example for Page",
+      "exampleVi": "Ví dụ cho Page",
+      "picturable": false
+    },
+    {
+      "id": "05c0de50-c47f-45b4-94ac-1f1315533690",
+      "deckId": "deck-850-basic",
+      "headword": "Pain",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cơn đau",
+      "exampleEn": "Example for Pain",
+      "exampleVi": "Ví dụ cho Pain",
+      "picturable": false
+    },
+    {
+      "id": "84983826-7c4f-473e-80c8-237ef0e52559",
+      "deckId": "deck-850-basic",
+      "headword": "Paint",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sơn",
+      "exampleEn": "Example for Paint",
+      "exampleVi": "Ví dụ cho Paint",
+      "picturable": false
+    },
+    {
+      "id": "bf3a6dbf-9c4a-429f-b84e-6f1a1622d13d",
+      "deckId": "deck-850-basic",
+      "headword": "Paper",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giấy",
+      "exampleEn": "Example for Paper",
+      "exampleVi": "Ví dụ cho Paper",
+      "picturable": false
+    },
+    {
+      "id": "1917a559-ed1a-40de-8ce8-cd6843bb2d09",
+      "deckId": "deck-850-basic",
+      "headword": "Part",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phần",
+      "exampleEn": "Example for Part",
+      "exampleVi": "Ví dụ cho Part",
+      "picturable": false
+    },
+    {
+      "id": "3d605f22-7d7b-4eb6-bd17-b05856e5e8d4",
+      "deckId": "deck-850-basic",
+      "headword": "Paste",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hồ dán",
+      "exampleEn": "Example for Paste",
+      "exampleVi": "Ví dụ cho Paste",
+      "picturable": false
+    },
+    {
+      "id": "c124fcac-0245-4488-9e5c-cacaebb962c9",
+      "deckId": "deck-850-basic",
+      "headword": "Payment",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thanh toán",
+      "exampleEn": "Example for Payment",
+      "exampleVi": "Ví dụ cho Payment",
+      "picturable": false
+    },
+    {
+      "id": "1eec74db-8fce-4228-b9a5-2729f985c146",
+      "deckId": "deck-850-basic",
+      "headword": "Peace",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hòa bình",
+      "exampleEn": "Example for Peace",
+      "exampleVi": "Ví dụ cho Peace",
+      "picturable": false
+    },
+    {
+      "id": "336d7f6e-bb47-47d9-98e1-d9bb800e774c",
+      "deckId": "deck-850-basic",
+      "headword": "Person",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người",
+      "exampleEn": "Example for Person",
+      "exampleVi": "Ví dụ cho Person",
+      "picturable": false
+    },
+    {
+      "id": "8aebbd33-0caf-40ff-84fe-62905ada7d30",
+      "deckId": "deck-850-basic",
+      "headword": "Place",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nơi chốn",
+      "exampleEn": "Example for Place",
+      "exampleVi": "Ví dụ cho Place",
+      "picturable": false
+    },
+    {
+      "id": "6df68710-4421-4a56-921b-f183e6c5a624",
+      "deckId": "deck-850-basic",
+      "headword": "Plant",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thực vật",
+      "exampleEn": "Example for Plant",
+      "exampleVi": "Ví dụ cho Plant",
+      "picturable": false
+    },
+    {
+      "id": "ddcfe551-358e-464f-9cc2-95c60a9c6513",
+      "deckId": "deck-850-basic",
+      "headword": "Play",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vở kịch",
+      "exampleEn": "Example for Play",
+      "exampleVi": "Ví dụ cho Play",
+      "picturable": false
+    },
+    {
+      "id": "19f29ab8-6aff-4941-8c3a-cdc403480c0a",
+      "deckId": "deck-850-basic",
+      "headword": "Pleasure",
+      "partOfSpeech": "noun",
+      "meaningVi": "Niềm vui",
+      "exampleEn": "Example for Pleasure",
+      "exampleVi": "Ví dụ cho Pleasure",
+      "picturable": false
+    },
+    {
+      "id": "2502593a-79c0-46c1-b19b-73819fad1a37",
+      "deckId": "deck-850-basic",
+      "headword": "Point",
+      "partOfSpeech": "noun",
+      "meaningVi": "Điểm",
+      "exampleEn": "Example for Point",
+      "exampleVi": "Ví dụ cho Point",
+      "picturable": false
+    },
+    {
+      "id": "c3feee29-d062-49a0-86e2-c92c467d8aab",
+      "deckId": "deck-850-basic",
+      "headword": "Poison",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chất độc",
+      "exampleEn": "Example for Poison",
+      "exampleVi": "Ví dụ cho Poison",
+      "picturable": false
+    },
+    {
+      "id": "0b14d14c-0db7-4e62-adcf-8df751010e83",
+      "deckId": "deck-850-basic",
+      "headword": "Polish",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đánh bóng",
+      "exampleEn": "Example for Polish",
+      "exampleVi": "Ví dụ cho Polish",
+      "picturable": false
+    },
+    {
+      "id": "6d47ad83-8545-4bef-b73c-49d4ffb9e67e",
+      "deckId": "deck-850-basic",
+      "headword": "Porter",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người khuân vác",
+      "exampleEn": "Example for Porter",
+      "exampleVi": "Ví dụ cho Porter",
+      "picturable": false
+    },
+    {
+      "id": "5f947493-8bb1-4456-91e8-685e0b45c58f",
+      "deckId": "deck-850-basic",
+      "headword": "Position",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vị trí",
+      "exampleEn": "Example for Position",
+      "exampleVi": "Ví dụ cho Position",
+      "picturable": false
+    },
+    {
+      "id": "51dd1508-f256-4c60-b06d-3f9522f48fb9",
+      "deckId": "deck-850-basic",
+      "headword": "Powder",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bột",
+      "exampleEn": "Example for Powder",
+      "exampleVi": "Ví dụ cho Powder",
+      "picturable": false
+    },
+    {
+      "id": "eb5f638b-2567-46c9-b7c4-acd50439ef7d",
+      "deckId": "deck-850-basic",
+      "headword": "Power",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quyền lực",
+      "exampleEn": "Example for Power",
+      "exampleVi": "Ví dụ cho Power",
+      "picturable": false
+    },
+    {
+      "id": "31a31c7f-e710-4bc3-afd7-0271cf8a0b93",
+      "deckId": "deck-850-basic",
+      "headword": "Price",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giá cả",
+      "exampleEn": "Example for Price",
+      "exampleVi": "Ví dụ cho Price",
+      "picturable": false
+    },
+    {
+      "id": "3539c996-ef5e-40db-8845-2ee9bc3d457f",
+      "deckId": "deck-850-basic",
+      "headword": "Print",
+      "partOfSpeech": "noun",
+      "meaningVi": "In ấn",
+      "exampleEn": "Example for Print",
+      "exampleVi": "Ví dụ cho Print",
+      "picturable": false
+    },
+    {
+      "id": "6aac2355-090c-4e97-9e62-cb0568e30725",
+      "deckId": "deck-850-basic",
+      "headword": "Process",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quá trình",
+      "exampleEn": "Example for Process",
+      "exampleVi": "Ví dụ cho Process",
+      "picturable": false
+    },
+    {
+      "id": "2b076b07-6643-4f92-bd98-6203bb921595",
+      "deckId": "deck-850-basic",
+      "headword": "Produce",
+      "partOfSpeech": "verb",
+      "meaningVi": "Sản xuất",
+      "exampleEn": "Example for Produce",
+      "exampleVi": "Ví dụ cho Produce",
+      "picturable": false
+    },
+    {
+      "id": "3b4195b7-1dfe-402d-bcee-9c2859e1a908",
+      "deckId": "deck-850-basic",
+      "headword": "Profit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lợi nhuận",
+      "exampleEn": "Example for Profit",
+      "exampleVi": "Ví dụ cho Profit",
+      "picturable": false
+    },
+    {
+      "id": "d995ca05-fb27-4fe2-bbd4-3c1300fb210a",
+      "deckId": "deck-850-basic",
+      "headword": "Property",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tài sản",
+      "exampleEn": "Example for Property",
+      "exampleVi": "Ví dụ cho Property",
+      "picturable": false
+    },
+    {
+      "id": "e11c6641-1590-4e8c-8283-4ca892361c02",
+      "deckId": "deck-850-basic",
+      "headword": "Prose",
+      "partOfSpeech": "noun",
+      "meaningVi": "Văn xuôi",
+      "exampleEn": "Example for Prose",
+      "exampleVi": "Ví dụ cho Prose",
+      "picturable": false
+    },
+    {
+      "id": "77c8fbc7-f9fb-4791-b667-22f58717ae37",
+      "deckId": "deck-850-basic",
+      "headword": "Protest",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phản đối",
+      "exampleEn": "Example for Protest",
+      "exampleVi": "Ví dụ cho Protest",
+      "picturable": false
+    },
+    {
+      "id": "1d8fd612-13df-4eb1-91fa-ad8394d9eb02",
+      "deckId": "deck-850-basic",
+      "headword": "Pull",
+      "partOfSpeech": "verb",
+      "meaningVi": "Kéo",
+      "exampleEn": "Example for Pull",
+      "exampleVi": "Ví dụ cho Pull",
+      "picturable": false
+    },
+    {
+      "id": "c1839420-6aa9-4098-a706-f1ba3500d2f7",
+      "deckId": "deck-850-basic",
+      "headword": "Punishment",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hình phạt",
+      "exampleEn": "Example for Punishment",
+      "exampleVi": "Ví dụ cho Punishment",
+      "picturable": false
+    },
+    {
+      "id": "9aa9ca1b-6c7f-4173-8cea-4b12578c73a5",
+      "deckId": "deck-850-basic",
+      "headword": "Purpose",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mục đích",
+      "exampleEn": "Example for Purpose",
+      "exampleVi": "Ví dụ cho Purpose",
+      "picturable": false
+    },
+    {
+      "id": "fef36f7b-28d9-4a93-b416-e9cfac8a42f3",
+      "deckId": "deck-850-basic",
+      "headword": "Push",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đẩy",
+      "exampleEn": "Example for Push",
+      "exampleVi": "Ví dụ cho Push",
+      "picturable": false
+    },
+    {
+      "id": "c38792d4-6275-45ed-a6af-822dd4e72750",
+      "deckId": "deck-850-basic",
+      "headword": "Quality",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chất lượng",
+      "exampleEn": "Example for Quality",
+      "exampleVi": "Ví dụ cho Quality",
+      "picturable": false
+    },
+    {
+      "id": "f9dd3764-075a-453c-8713-3f9647152a3d",
+      "deckId": "deck-850-basic",
+      "headword": "Question",
+      "partOfSpeech": "noun",
+      "meaningVi": "Câu hỏi",
+      "exampleEn": "Example for Question",
+      "exampleVi": "Ví dụ cho Question",
+      "picturable": false
+    },
+    {
+      "id": "3da154d3-92b1-4064-bb65-0b06863c0a39",
+      "deckId": "deck-850-basic",
+      "headword": "Rain",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mưa",
+      "exampleEn": "Example for Rain",
+      "exampleVi": "Ví dụ cho Rain",
+      "picturable": false
+    },
+    {
+      "id": "bd968737-c857-4ea3-8edd-4a2acad34435",
+      "deckId": "deck-850-basic",
+      "headword": "Range",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phạm vi",
+      "exampleEn": "Example for Range",
+      "exampleVi": "Ví dụ cho Range",
+      "picturable": false
+    },
+    {
+      "id": "7ea54adf-5467-47ce-b621-8b07f665724f",
+      "deckId": "deck-850-basic",
+      "headword": "Rate",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tỷ lệ",
+      "exampleEn": "Example for Rate",
+      "exampleVi": "Ví dụ cho Rate",
+      "picturable": false
+    },
+    {
+      "id": "cd0c8a3a-78ab-41b8-b8ef-2816946fcf7e",
+      "deckId": "deck-850-basic",
+      "headword": "Ray",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tia",
+      "exampleEn": "Example for Ray",
+      "exampleVi": "Ví dụ cho Ray",
+      "picturable": false
+    },
+    {
+      "id": "77a10bc6-ef6e-4df5-b03c-5485d8af6678",
+      "deckId": "deck-850-basic",
+      "headword": "Reaction",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phản ứng",
+      "exampleEn": "Example for Reaction",
+      "exampleVi": "Ví dụ cho Reaction",
+      "picturable": false
+    },
+    {
+      "id": "263de14d-68a5-41e6-a33c-b94c89c0f9b7",
+      "deckId": "deck-850-basic",
+      "headword": "Reading",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đọc",
+      "exampleEn": "Example for Reading",
+      "exampleVi": "Ví dụ cho Reading",
+      "picturable": false
+    },
+    {
+      "id": "f488880e-da42-4ad6-99df-3a25a6d60e7f",
+      "deckId": "deck-850-basic",
+      "headword": "Reason",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lý do",
+      "exampleEn": "Example for Reason",
+      "exampleVi": "Ví dụ cho Reason",
+      "picturable": false
+    },
+    {
+      "id": "e2494dfb-74f7-440f-979a-19f500fc9b5e",
+      "deckId": "deck-850-basic",
+      "headword": "Record",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kỷ lục",
+      "exampleEn": "Example for Record",
+      "exampleVi": "Ví dụ cho Record",
+      "picturable": false
+    },
+    {
+      "id": "ead47cad-86c6-41d1-a476-584d4acce431",
+      "deckId": "deck-850-basic",
+      "headword": "Regret",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hối tiếc",
+      "exampleEn": "Example for Regret",
+      "exampleVi": "Ví dụ cho Regret",
+      "picturable": false
+    },
+    {
+      "id": "c798f2eb-50fa-45e3-a9c7-ac72c298c333",
+      "deckId": "deck-850-basic",
+      "headword": "Relation",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mối quan hệ",
+      "exampleEn": "Example for Relation",
+      "exampleVi": "Ví dụ cho Relation",
+      "picturable": false
+    },
+    {
+      "id": "b47f7cb7-cbb6-44e6-bf67-c2c1f66f741b",
+      "deckId": "deck-850-basic",
+      "headword": "Religion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tôn giáo",
+      "exampleEn": "Example for Religion",
+      "exampleVi": "Ví dụ cho Religion",
+      "picturable": false
+    },
+    {
+      "id": "e0f19514-08af-4421-b49b-baad9af775e3",
+      "deckId": "deck-850-basic",
+      "headword": "Representative",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đại diện",
+      "exampleEn": "Example for Representative",
+      "exampleVi": "Ví dụ cho Representative",
+      "picturable": false
+    },
+    {
+      "id": "4b0e3741-4699-49fe-9f52-e8f0e8cb4719",
+      "deckId": "deck-850-basic",
+      "headword": "Request",
+      "partOfSpeech": "verb",
+      "meaningVi": "Yêu cầu",
+      "exampleEn": "Example for Request",
+      "exampleVi": "Ví dụ cho Request",
+      "picturable": false
+    },
+    {
+      "id": "6b2ba2cc-bb5a-46d1-8155-1ab5d938fcf7",
+      "deckId": "deck-850-basic",
+      "headword": "Respect",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kính trọng",
+      "exampleEn": "Example for Respect",
+      "exampleVi": "Ví dụ cho Respect",
+      "picturable": false
+    },
+    {
+      "id": "7051852c-017f-4c2c-ba8a-d82303257ce9",
+      "deckId": "deck-850-basic",
+      "headword": "Rest",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nghỉ ngơi",
+      "exampleEn": "Example for Rest",
+      "exampleVi": "Ví dụ cho Rest",
+      "picturable": false
+    },
+    {
+      "id": "1a0cc622-2c6d-4064-9d3a-e5e0544399d4",
+      "deckId": "deck-850-basic",
+      "headword": "Reward",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phần thưởng",
+      "exampleEn": "Example for Reward",
+      "exampleVi": "Ví dụ cho Reward",
+      "picturable": false
+    },
+    {
+      "id": "86c0b5b2-6a4a-455c-ae50-1a74559e5caa",
+      "deckId": "deck-850-basic",
+      "headword": "Rhythm",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nhịp điệu",
+      "exampleEn": "Example for Rhythm",
+      "exampleVi": "Ví dụ cho Rhythm",
+      "picturable": false
+    },
+    {
+      "id": "8728f1d8-a561-469e-bd67-1a782f5616f2",
+      "deckId": "deck-850-basic",
+      "headword": "Rice",
+      "partOfSpeech": "noun",
+      "meaningVi": "Gạo",
+      "exampleEn": "Example for Rice",
+      "exampleVi": "Ví dụ cho Rice",
+      "picturable": false
+    },
+    {
+      "id": "2fbed895-dddd-41cc-8e2d-32e7418a8bcd",
+      "deckId": "deck-850-basic",
+      "headword": "River",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sông",
+      "exampleEn": "Example for River",
+      "exampleVi": "Ví dụ cho River",
+      "picturable": false
+    },
+    {
+      "id": "64f3f9c8-ebfb-4ae5-beb9-92a59c0fe020",
+      "deckId": "deck-850-basic",
+      "headword": "Road",
+      "partOfSpeech": "noun",
+      "meaningVi": "Con đường",
+      "exampleEn": "Example for Road",
+      "exampleVi": "Ví dụ cho Road",
+      "picturable": false
+    },
+    {
+      "id": "d3212667-3386-4b38-b965-c5637c23694e",
+      "deckId": "deck-850-basic",
+      "headword": "Roll",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cuộn",
+      "exampleEn": "Example for Roll",
+      "exampleVi": "Ví dụ cho Roll",
+      "picturable": false
+    },
+    {
+      "id": "5e603bbb-72f2-4a7b-8129-b50a5d78ed07",
+      "deckId": "deck-850-basic",
+      "headword": "Room",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phòng",
+      "exampleEn": "Example for Room",
+      "exampleVi": "Ví dụ cho Room",
+      "picturable": false
+    },
+    {
+      "id": "5aa7fe1c-98b4-4e0d-a5e9-42aaf1e0fb49",
+      "deckId": "deck-850-basic",
+      "headword": "Rub",
+      "partOfSpeech": "verb",
+      "meaningVi": "Cọ xát",
+      "exampleEn": "Example for Rub",
+      "exampleVi": "Ví dụ cho Rub",
+      "picturable": false
+    },
+    {
+      "id": "3df1a1ac-9db7-43e6-ab7e-52973070fae7",
+      "deckId": "deck-850-basic",
+      "headword": "Rule",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quy tắc",
+      "exampleEn": "Example for Rule",
+      "exampleVi": "Ví dụ cho Rule",
+      "picturable": false
+    },
+    {
+      "id": "c9f74b69-27d2-4bf7-8f90-374dc3eee843",
+      "deckId": "deck-850-basic",
+      "headword": "Run",
+      "partOfSpeech": "verb",
+      "meaningVi": "Chạy",
+      "exampleEn": "Example for Run",
+      "exampleVi": "Ví dụ cho Run",
+      "picturable": false
+    },
+    {
+      "id": "0bd3ce3b-569b-41ea-aed6-4b871c749d12",
+      "deckId": "deck-850-basic",
+      "headword": "Salt",
+      "partOfSpeech": "noun",
+      "meaningVi": "Muối",
+      "exampleEn": "Example for Salt",
+      "exampleVi": "Ví dụ cho Salt",
+      "picturable": false
+    },
+    {
+      "id": "95b97dd5-7461-4e5e-b89c-06456b356be9",
+      "deckId": "deck-850-basic",
+      "headword": "Sand",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cát",
+      "exampleEn": "Example for Sand",
+      "exampleVi": "Ví dụ cho Sand",
+      "picturable": false
+    },
+    {
+      "id": "3226d1a1-0fc1-43a3-9d77-ac44c5c73fae",
+      "deckId": "deck-850-basic",
+      "headword": "Scale",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quy mô",
+      "exampleEn": "Example for Scale",
+      "exampleVi": "Ví dụ cho Scale",
+      "picturable": false
+    },
+    {
+      "id": "def71ca8-b4b7-4a83-a47e-d2dda195f55b",
+      "deckId": "deck-850-basic",
+      "headword": "Science",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khoa học",
+      "exampleEn": "Example for Science",
+      "exampleVi": "Ví dụ cho Science",
+      "picturable": false
+    },
+    {
+      "id": "bc4ffa35-391e-432a-9c74-173dba4c487a",
+      "deckId": "deck-850-basic",
+      "headword": "Sea",
+      "partOfSpeech": "noun",
+      "meaningVi": "Biển",
+      "exampleEn": "Example for Sea",
+      "exampleVi": "Ví dụ cho Sea",
+      "picturable": false
+    },
+    {
+      "id": "e86e5523-4e6a-4783-8805-112a6d885670",
+      "deckId": "deck-850-basic",
+      "headword": "Seat",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chỗ ngồi",
+      "exampleEn": "Example for Seat",
+      "exampleVi": "Ví dụ cho Seat",
+      "picturable": false
+    },
+    {
+      "id": "39c1730d-48cb-4c6e-8039-994e7a6ca261",
+      "deckId": "deck-850-basic",
+      "headword": "Secretary",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thư ký",
+      "exampleEn": "Example for Secretary",
+      "exampleVi": "Ví dụ cho Secretary",
+      "picturable": false
+    },
+    {
+      "id": "230a014a-3f08-43e3-97d8-6e7c684423cd",
+      "deckId": "deck-850-basic",
+      "headword": "Selection",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự lựa chọn",
+      "exampleEn": "Example for Selection",
+      "exampleVi": "Ví dụ cho Selection",
+      "picturable": false
+    },
+    {
+      "id": "c0df57cd-c4a8-4686-b08e-545d211bcb8b",
+      "deckId": "deck-850-basic",
+      "headword": "Self",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bản thân",
+      "exampleEn": "Example for Self",
+      "exampleVi": "Ví dụ cho Self",
+      "picturable": false
+    },
+    {
+      "id": "292dad5f-f7a3-49df-92d5-d1ddcb465734",
+      "deckId": "deck-850-basic",
+      "headword": "Sense",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giác quan",
+      "exampleEn": "Example for Sense",
+      "exampleVi": "Ví dụ cho Sense",
+      "picturable": false
+    },
+    {
+      "id": "c0ba9919-a942-4d63-bd26-fd88a0dace6b",
+      "deckId": "deck-850-basic",
+      "headword": "Servant",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người hầu",
+      "exampleEn": "Example for Servant",
+      "exampleVi": "Ví dụ cho Servant",
+      "picturable": false
+    },
+    {
+      "id": "48706ca8-8e69-4150-ae12-ded66a67d3eb",
+      "deckId": "deck-850-basic",
+      "headword": "Sex",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giới tính",
+      "exampleEn": "Example for Sex",
+      "exampleVi": "Ví dụ cho Sex",
+      "picturable": false
+    },
+    {
+      "id": "054fae7f-a3e7-4f4a-b54e-16ac909709d8",
+      "deckId": "deck-850-basic",
+      "headword": "Shade",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bóng râm",
+      "exampleEn": "Example for Shade",
+      "exampleVi": "Ví dụ cho Shade",
+      "picturable": false
+    },
+    {
+      "id": "5eec591a-83bb-4c46-8ace-d34bee90b8f0",
+      "deckId": "deck-850-basic",
+      "headword": "Shake",
+      "partOfSpeech": "verb",
+      "meaningVi": "Rung, lắc",
+      "exampleEn": "Example for Shake",
+      "exampleVi": "Ví dụ cho Shake",
+      "picturable": false
+    },
+    {
+      "id": "1f6bb984-efbd-4522-a009-cd42c1436705",
+      "deckId": "deck-850-basic",
+      "headword": "Shame",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự xấu hổ",
+      "exampleEn": "Example for Shame",
+      "exampleVi": "Ví dụ cho Shame",
+      "picturable": false
+    },
+    {
+      "id": "7751482e-0267-4852-bbe1-f21f42d3a086",
+      "deckId": "deck-850-basic",
+      "headword": "Shock",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cú sốc",
+      "exampleEn": "Example for Shock",
+      "exampleVi": "Ví dụ cho Shock",
+      "picturable": false
+    },
+    {
+      "id": "2f36c427-487b-4e88-a3b8-0eaaf108be11",
+      "deckId": "deck-850-basic",
+      "headword": "Side",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cạnh, bên",
+      "exampleEn": "Example for Side",
+      "exampleVi": "Ví dụ cho Side",
+      "picturable": false
+    },
+    {
+      "id": "04beb980-4748-4054-8ab2-7c20273caa40",
+      "deckId": "deck-850-basic",
+      "headword": "Sign",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dấu hiệu",
+      "exampleEn": "Example for Sign",
+      "exampleVi": "Ví dụ cho Sign",
+      "picturable": false
+    },
+    {
+      "id": "2a582b70-0b29-464b-8340-c00d481debe3",
+      "deckId": "deck-850-basic",
+      "headword": "Silk",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lụa",
+      "exampleEn": "Example for Silk",
+      "exampleVi": "Ví dụ cho Silk",
+      "picturable": false
+    },
+    {
+      "id": "9d66db04-4d93-42f6-963a-0c12b853a672",
+      "deckId": "deck-850-basic",
+      "headword": "Silver",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bạc",
+      "exampleEn": "Example for Silver",
+      "exampleVi": "Ví dụ cho Silver",
+      "picturable": false
+    },
+    {
+      "id": "64705aca-b823-4540-a382-f0c94ed3eead",
+      "deckId": "deck-850-basic",
+      "headword": "Sister",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chị, em gái",
+      "exampleEn": "Example for Sister",
+      "exampleVi": "Ví dụ cho Sister",
+      "picturable": false
+    },
+    {
+      "id": "399f0f9b-4132-4fbe-a0ee-5f8d7bbdffb7",
+      "deckId": "deck-850-basic",
+      "headword": "Size",
+      "partOfSpeech": "noun",
+      "meaningVi": "Kích thước",
+      "exampleEn": "Example for Size",
+      "exampleVi": "Ví dụ cho Size",
+      "picturable": false
+    },
+    {
+      "id": "5c922f45-f6d9-4fa4-bf49-8f209ac354eb",
+      "deckId": "deck-850-basic",
+      "headword": "Sky",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bầu trời",
+      "exampleEn": "Example for Sky",
+      "exampleVi": "Ví dụ cho Sky",
+      "picturable": false
+    },
+    {
+      "id": "24db8490-96a3-41cf-8b16-61486ffc09b0",
+      "deckId": "deck-850-basic",
+      "headword": "Sleep",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ngủ",
+      "exampleEn": "Example for Sleep",
+      "exampleVi": "Ví dụ cho Sleep",
+      "picturable": false
+    },
+    {
+      "id": "0f4d3c1a-81dd-42bc-b20d-e105f461df24",
+      "deckId": "deck-850-basic",
+      "headword": "Slip",
+      "partOfSpeech": "verb",
+      "meaningVi": "Trượt",
+      "exampleEn": "Example for Slip",
+      "exampleVi": "Ví dụ cho Slip",
+      "picturable": false
+    },
+    {
+      "id": "a9620d85-e355-4a3f-8ec4-12af1b57f538",
+      "deckId": "deck-850-basic",
+      "headword": "Slope",
+      "partOfSpeech": "noun",
+      "meaningVi": "Dốc",
+      "exampleEn": "Example for Slope",
+      "exampleVi": "Ví dụ cho Slope",
+      "picturable": false
+    },
+    {
+      "id": "bbb1f2a3-8079-4441-813a-481a325c8854",
+      "deckId": "deck-850-basic",
+      "headword": "Smash",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đập tan",
+      "exampleEn": "Example for Smash",
+      "exampleVi": "Ví dụ cho Smash",
+      "picturable": false
+    },
+    {
+      "id": "554ba3b5-2bde-4cf6-ae12-5c33ffa04370",
+      "deckId": "deck-850-basic",
+      "headword": "Smell",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ngửi",
+      "exampleEn": "Example for Smell",
+      "exampleVi": "Ví dụ cho Smell",
+      "picturable": false
+    },
+    {
+      "id": "7a320892-b470-49f7-bf78-c78499e32c4a",
+      "deckId": "deck-850-basic",
+      "headword": "Smile",
+      "partOfSpeech": "verb",
+      "meaningVi": "Cười",
+      "exampleEn": "Example for Smile",
+      "exampleVi": "Ví dụ cho Smile",
+      "picturable": false
+    },
+    {
+      "id": "213febb2-9033-47c7-a5fe-39f8d98bbf8d",
+      "deckId": "deck-850-basic",
+      "headword": "Smoke",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hút thuốc",
+      "exampleEn": "Example for Smoke",
+      "exampleVi": "Ví dụ cho Smoke",
+      "picturable": false
+    },
+    {
+      "id": "8a52770e-c0bd-46b2-9486-2f06b869eb45",
+      "deckId": "deck-850-basic",
+      "headword": "Sneeze",
+      "partOfSpeech": "verb",
+      "meaningVi": "Hắt hơi",
+      "exampleEn": "Example for Sneeze",
+      "exampleVi": "Ví dụ cho Sneeze",
+      "picturable": false
+    },
+    {
+      "id": "a377f5dd-5c68-4728-86cd-8b6e64d8b5bc",
+      "deckId": "deck-850-basic",
+      "headword": "Snow",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tuyết",
+      "exampleEn": "Example for Snow",
+      "exampleVi": "Ví dụ cho Snow",
+      "picturable": false
+    },
+    {
+      "id": "17c36d23-0d26-4f74-aab8-fcfe0dab3fcf",
+      "deckId": "deck-850-basic",
+      "headword": "Soap",
+      "partOfSpeech": "noun",
+      "meaningVi": "Xà phòng",
+      "exampleEn": "Example for Soap",
+      "exampleVi": "Ví dụ cho Soap",
+      "picturable": false
+    },
+    {
+      "id": "74d5cb71-1e0e-428b-bcaa-425ab5167d57",
+      "deckId": "deck-850-basic",
+      "headword": "Society",
+      "partOfSpeech": "noun",
+      "meaningVi": "Xã hội",
+      "exampleEn": "Example for Society",
+      "exampleVi": "Ví dụ cho Society",
+      "picturable": false
+    },
+    {
+      "id": "3ef18bd0-23c5-4575-8c27-91e953b588fe",
+      "deckId": "deck-850-basic",
+      "headword": "Son",
+      "partOfSpeech": "noun",
+      "meaningVi": "Con trai",
+      "exampleEn": "Example for Son",
+      "exampleVi": "Ví dụ cho Son",
+      "picturable": false
+    },
+    {
+      "id": "885407a0-7c0f-4ce9-a0fc-6e42de80231f",
+      "deckId": "deck-850-basic",
+      "headword": "Song",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bài hát",
+      "exampleEn": "Example for Song",
+      "exampleVi": "Ví dụ cho Song",
+      "picturable": false
+    },
+    {
+      "id": "9a958de7-c9c5-4d3b-8492-1dd97970a237",
+      "deckId": "deck-850-basic",
+      "headword": "Sort",
+      "partOfSpeech": "noun",
+      "meaningVi": "Loại",
+      "exampleEn": "Example for Sort",
+      "exampleVi": "Ví dụ cho Sort",
+      "picturable": false
+    },
+    {
+      "id": "1b877f87-18c3-44be-8f12-372f97d2bacd",
+      "deckId": "deck-850-basic",
+      "headword": "Sound",
+      "partOfSpeech": "noun",
+      "meaningVi": "Âm thanh",
+      "exampleEn": "Example for Sound",
+      "exampleVi": "Ví dụ cho Sound",
+      "picturable": false
+    },
+    {
+      "id": "e3c99e34-dff9-4534-98b6-879c33562ad3",
+      "deckId": "deck-850-basic",
+      "headword": "Soup",
+      "partOfSpeech": "noun",
+      "meaningVi": "Súp",
+      "exampleEn": "Example for Soup",
+      "exampleVi": "Ví dụ cho Soup",
+      "picturable": false
+    },
+    {
+      "id": "ed10e102-88f6-4bfe-98f0-a44f3e4d6a8d",
+      "deckId": "deck-850-basic",
+      "headword": "Space",
+      "partOfSpeech": "noun",
+      "meaningVi": "Không gian",
+      "exampleEn": "Example for Space",
+      "exampleVi": "Ví dụ cho Space",
+      "picturable": false
+    },
+    {
+      "id": "1b183975-224a-4674-a6e0-c18bf3b64d34",
+      "deckId": "deck-850-basic",
+      "headword": "Stage",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sân khấu",
+      "exampleEn": "Example for Stage",
+      "exampleVi": "Ví dụ cho Stage",
+      "picturable": false
+    },
+    {
+      "id": "d76200f7-4cc3-4073-ba2d-106a9adc74df",
+      "deckId": "deck-850-basic",
+      "headword": "Start",
+      "partOfSpeech": "verb",
+      "meaningVi": "Bắt đầu",
+      "exampleEn": "Example for Start",
+      "exampleVi": "Ví dụ cho Start",
+      "picturable": false
+    },
+    {
+      "id": "e1370fa7-afac-4bc9-9d99-20d7e737c810",
+      "deckId": "deck-850-basic",
+      "headword": "Statement",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lời tuyên bố",
+      "exampleEn": "Example for Statement",
+      "exampleVi": "Ví dụ cho Statement",
+      "picturable": false
+    },
+    {
+      "id": "cf0e9f71-55de-49b8-b849-0abd31061f60",
+      "deckId": "deck-850-basic",
+      "headword": "Steam",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hơi nước",
+      "exampleEn": "Example for Steam",
+      "exampleVi": "Ví dụ cho Steam",
+      "picturable": false
+    },
+    {
+      "id": "29690287-ca6f-49b9-8dd6-bd3e16a82867",
+      "deckId": "deck-850-basic",
+      "headword": "Steel",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thép",
+      "exampleEn": "Example for Steel",
+      "exampleVi": "Ví dụ cho Steel",
+      "picturable": false
+    },
+    {
+      "id": "69c50b2d-0634-4838-bc8f-e560b6032813",
+      "deckId": "deck-850-basic",
+      "headword": "Step",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bước",
+      "exampleEn": "Example for Step",
+      "exampleVi": "Ví dụ cho Step",
+      "picturable": false
+    },
+    {
+      "id": "04b68680-1e12-401b-9a6d-b608fdba3067",
+      "deckId": "deck-850-basic",
+      "headword": "Stitch",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mũi khâu",
+      "exampleEn": "Example for Stitch",
+      "exampleVi": "Ví dụ cho Stitch",
+      "picturable": false
+    },
+    {
+      "id": "566a0eb1-cb7b-494c-8aa9-37a6b47a4057",
+      "deckId": "deck-850-basic",
+      "headword": "Stone",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đá",
+      "exampleEn": "Example for Stone",
+      "exampleVi": "Ví dụ cho Stone",
+      "picturable": false
+    },
+    {
+      "id": "aa1e47ab-9cdd-49e6-a268-d44c5d1895e6",
+      "deckId": "deck-850-basic",
+      "headword": "Stop",
+      "partOfSpeech": "verb",
+      "meaningVi": "Dừng lại",
+      "exampleEn": "Example for Stop",
+      "exampleVi": "Ví dụ cho Stop",
+      "picturable": false
+    },
+    {
+      "id": "e21697a4-83e1-45a1-9088-69e20f29a16d",
+      "deckId": "deck-850-basic",
+      "headword": "Story",
+      "partOfSpeech": "noun",
+      "meaningVi": "Câu chuyện",
+      "exampleEn": "Example for Story",
+      "exampleVi": "Ví dụ cho Story",
+      "picturable": false
+    },
+    {
+      "id": "c79db102-d91a-407c-96ec-94800fa27194",
+      "deckId": "deck-850-basic",
+      "headword": "Stretch",
+      "partOfSpeech": "verb",
+      "meaningVi": "Căng ra",
+      "exampleEn": "Example for Stretch",
+      "exampleVi": "Ví dụ cho Stretch",
+      "picturable": false
+    },
+    {
+      "id": "bf644c86-b8e3-4e46-9a68-79b9c1bdb821",
+      "deckId": "deck-850-basic",
+      "headword": "Structure",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cấu trúc",
+      "exampleEn": "Example for Structure",
+      "exampleVi": "Ví dụ cho Structure",
+      "picturable": false
+    },
+    {
+      "id": "84d75bd0-3f34-413d-a370-e586e11b43c3",
+      "deckId": "deck-850-basic",
+      "headword": "Substance",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chất",
+      "exampleEn": "Example for Substance",
+      "exampleVi": "Ví dụ cho Substance",
+      "picturable": false
+    },
+    {
+      "id": "4d6a90f6-57e9-46da-ab68-3656d7cecfd9",
+      "deckId": "deck-850-basic",
+      "headword": "Sugar",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đường",
+      "exampleEn": "Example for Sugar",
+      "exampleVi": "Ví dụ cho Sugar",
+      "picturable": false
+    },
+    {
+      "id": "aa5ba841-ae1b-40cf-bbd5-2cb8552e1a7d",
+      "deckId": "deck-850-basic",
+      "headword": "Suggestion",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự gợi ý",
+      "exampleEn": "Example for Suggestion",
+      "exampleVi": "Ví dụ cho Suggestion",
+      "picturable": false
+    },
+    {
+      "id": "60727670-89ec-4232-a2b6-103a057acf17",
+      "deckId": "deck-850-basic",
+      "headword": "Summer",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mùa hè",
+      "exampleEn": "Example for Summer",
+      "exampleVi": "Ví dụ cho Summer",
+      "picturable": false
+    },
+    {
+      "id": "b0b716f3-000a-4900-8de6-f8aaf4178010",
+      "deckId": "deck-850-basic",
+      "headword": "Support",
+      "partOfSpeech": "verb",
+      "meaningVi": "Ủng hộ",
+      "exampleEn": "Example for Support",
+      "exampleVi": "Ví dụ cho Support",
+      "picturable": false
+    },
+    {
+      "id": "abd40c35-a012-49bb-ab7e-2e20c0534f77",
+      "deckId": "deck-850-basic",
+      "headword": "Surprise",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự ngạc nhiên",
+      "exampleEn": "Example for Surprise",
+      "exampleVi": "Ví dụ cho Surprise",
+      "picturable": false
+    },
+    {
+      "id": "43a39698-13fb-4030-9ab2-2328a621cb88",
+      "deckId": "deck-850-basic",
+      "headword": "Swim",
+      "partOfSpeech": "verb",
+      "meaningVi": "Bơi",
+      "exampleEn": "Example for Swim",
+      "exampleVi": "Ví dụ cho Swim",
+      "picturable": false
+    },
+    {
+      "id": "2f76a505-65ad-419c-b24a-4f3c7df5dd35",
+      "deckId": "deck-850-basic",
+      "headword": "System",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hệ thống",
+      "exampleEn": "Example for System",
+      "exampleVi": "Ví dụ cho System",
+      "picturable": false
+    },
+    {
+      "id": "57634203-5270-4250-a78c-5757212cf59e",
+      "deckId": "deck-850-basic",
+      "headword": "Talk",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nói chuyện",
+      "exampleEn": "Example for Talk",
+      "exampleVi": "Ví dụ cho Talk",
+      "picturable": false
+    },
+    {
+      "id": "eef31cb8-11d0-4a7f-b455-c52df2f4c5dc",
+      "deckId": "deck-850-basic",
+      "headword": "Taste",
+      "partOfSpeech": "verb",
+      "meaningVi": "Nếm",
+      "exampleEn": "Example for Taste",
+      "exampleVi": "Ví dụ cho Taste",
+      "picturable": false
+    },
+    {
+      "id": "398b8803-3206-402f-a941-8ddb7c2a882b",
+      "deckId": "deck-850-basic",
+      "headword": "Tax",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thuế",
+      "exampleEn": "Example for Tax",
+      "exampleVi": "Ví dụ cho Tax",
+      "picturable": false
+    },
+    {
+      "id": "8187dc8c-72a0-4650-ac96-96393691c86b",
+      "deckId": "deck-850-basic",
+      "headword": "Teaching",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự dạy dỗ",
+      "exampleEn": "Example for Teaching",
+      "exampleVi": "Ví dụ cho Teaching",
+      "picturable": false
+    },
+    {
+      "id": "e30d3530-77fa-45d5-a4b6-48a144e516ec",
+      "deckId": "deck-850-basic",
+      "headword": "Tendency",
+      "partOfSpeech": "noun",
+      "meaningVi": "Xu hướng",
+      "exampleEn": "Example for Tendency",
+      "exampleVi": "Ví dụ cho Tendency",
+      "picturable": false
+    },
+    {
+      "id": "5b03b65e-e553-439a-80b4-0ffa9e67f144",
+      "deckId": "deck-850-basic",
+      "headword": "Test",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bài kiểm tra",
+      "exampleEn": "Example for Test",
+      "exampleVi": "Ví dụ cho Test",
+      "picturable": false
+    },
+    {
+      "id": "4d1c9055-7250-4982-8b8f-2d35e64cac06",
+      "deckId": "deck-850-basic",
+      "headword": "Theory",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lý thuyết",
+      "exampleEn": "Example for Theory",
+      "exampleVi": "Ví dụ cho Theory",
+      "picturable": false
+    },
+    {
+      "id": "bb5e568e-28d1-4072-9d8a-e1abb0bc3a8b",
+      "deckId": "deck-850-basic",
+      "headword": "Thing",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sự vật",
+      "exampleEn": "Example for Thing",
+      "exampleVi": "Ví dụ cho Thing",
+      "picturable": false
+    },
+    {
+      "id": "16bb66e5-d17c-4095-b29f-e6014487753d",
+      "deckId": "deck-850-basic",
+      "headword": "Thought",
+      "partOfSpeech": "noun",
+      "meaningVi": "Suy nghĩ",
+      "exampleEn": "Example for Thought",
+      "exampleVi": "Ví dụ cho Thought",
+      "picturable": false
+    },
+    {
+      "id": "b37f0bfa-f02c-4cc0-9d25-6c3c41896c53",
+      "deckId": "deck-850-basic",
+      "headword": "Thunder",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sấm",
+      "exampleEn": "Example for Thunder",
+      "exampleVi": "Ví dụ cho Thunder",
+      "picturable": false
+    },
+    {
+      "id": "b871333f-830e-4267-b9c9-e914f73fa37b",
+      "deckId": "deck-850-basic",
+      "headword": "Time",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thời gian",
+      "exampleEn": "Example for Time",
+      "exampleVi": "Ví dụ cho Time",
+      "picturable": false
+    },
+    {
+      "id": "6d2ccd92-6f89-4e3c-a83f-66c025ba5bf3",
+      "deckId": "deck-850-basic",
+      "headword": "Tin",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thiếc",
+      "exampleEn": "Example for Tin",
+      "exampleVi": "Ví dụ cho Tin",
+      "picturable": false
+    },
+    {
+      "id": "4877b3ac-16af-4e48-b346-6f539e9d9e12",
+      "deckId": "deck-850-basic",
+      "headword": "Top",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đỉnh",
+      "exampleEn": "Example for Top",
+      "exampleVi": "Ví dụ cho Top",
+      "picturable": false
+    },
+    {
+      "id": "a551f25b-c223-46f9-9d84-4be65bebe83e",
+      "deckId": "deck-850-basic",
+      "headword": "Touch",
+      "partOfSpeech": "verb",
+      "meaningVi": "Chạm",
+      "exampleEn": "Example for Touch",
+      "exampleVi": "Ví dụ cho Touch",
+      "picturable": false
+    },
+    {
+      "id": "a386a7d7-caf5-42f3-aeb4-3bfd61f089e0",
+      "deckId": "deck-850-basic",
+      "headword": "Trade",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thương mại",
+      "exampleEn": "Example for Trade",
+      "exampleVi": "Ví dụ cho Trade",
+      "picturable": false
+    },
+    {
+      "id": "ec9a0660-4959-4c9f-a807-c1e23a9055fb",
+      "deckId": "deck-850-basic",
+      "headword": "Transport",
+      "partOfSpeech": "verb",
+      "meaningVi": "Vận chuyển",
+      "exampleEn": "Example for Transport",
+      "exampleVi": "Ví dụ cho Transport",
+      "picturable": false
+    },
+    {
+      "id": "6f3957d4-0238-4bdc-bb54-c167d2d3dd8b",
+      "deckId": "deck-850-basic",
+      "headword": "Trick",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mẹo",
+      "exampleEn": "Example for Trick",
+      "exampleVi": "Ví dụ cho Trick",
+      "picturable": false
+    },
+    {
+      "id": "16b945e0-cd71-4df2-9c14-8d9de3246a2c",
+      "deckId": "deck-850-basic",
+      "headword": "Trouble",
+      "partOfSpeech": "noun",
+      "meaningVi": "Rắc rối",
+      "exampleEn": "Example for Trouble",
+      "exampleVi": "Ví dụ cho Trouble",
+      "picturable": false
+    },
+    {
+      "id": "81dcea62-d6dd-4cc3-9fd5-34705dc8b637",
+      "deckId": "deck-850-basic",
+      "headword": "Turn",
+      "partOfSpeech": "verb",
+      "meaningVi": "Xoay",
+      "exampleEn": "Example for Turn",
+      "exampleVi": "Ví dụ cho Turn",
+      "picturable": false
+    },
+    {
+      "id": "6e417b08-6943-46b1-9b69-7ecf56eb5cca",
+      "deckId": "deck-850-basic",
+      "headword": "Twist",
+      "partOfSpeech": "verb",
+      "meaningVi": "Xoắn",
+      "exampleEn": "Example for Twist",
+      "exampleVi": "Ví dụ cho Twist",
+      "picturable": false
+    },
+    {
+      "id": "85595aa1-77d0-40d7-85cd-c7e8ab1e4aed",
+      "deckId": "deck-850-basic",
+      "headword": "Unit",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đơn vị",
+      "exampleEn": "Example for Unit",
+      "exampleVi": "Ví dụ cho Unit",
+      "picturable": false
+    },
+    {
+      "id": "ad916d34-98e4-4604-8e8a-87a9d3870a6e",
+      "deckId": "deck-850-basic",
+      "headword": "Use",
+      "partOfSpeech": "verb",
+      "meaningVi": "Sử dụng",
+      "exampleEn": "Example for Use",
+      "exampleVi": "Ví dụ cho Use",
+      "picturable": false
+    },
+    {
+      "id": "4a79f65c-9b74-4e6a-b7eb-50b7f78fce1e",
+      "deckId": "deck-850-basic",
+      "headword": "Value",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giá trị",
+      "exampleEn": "Example for Value",
+      "exampleVi": "Ví dụ cho Value",
+      "picturable": false
+    },
+    {
+      "id": "231d7661-2a11-4af3-8439-9f2575b53f93",
+      "deckId": "deck-850-basic",
+      "headword": "Verse",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thơ",
+      "exampleEn": "Example for Verse",
+      "exampleVi": "Ví dụ cho Verse",
+      "picturable": false
+    },
+    {
+      "id": "3c31c655-29db-4398-9291-148cb5e026ba",
+      "deckId": "deck-850-basic",
+      "headword": "Vessel",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bình chứa",
+      "exampleEn": "Example for Vessel",
+      "exampleVi": "Ví dụ cho Vessel",
+      "picturable": false
+    },
+    {
+      "id": "23dd583d-8790-4dc2-8a5d-29aa7dc7bf96",
+      "deckId": "deck-850-basic",
+      "headword": "View",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quan điểm",
+      "exampleEn": "Example for View",
+      "exampleVi": "Ví dụ cho View",
+      "picturable": false
+    },
+    {
+      "id": "88b31bdf-af4c-4c8c-b87d-439041d6676e",
+      "deckId": "deck-850-basic",
+      "headword": "Voice",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giọng nói",
+      "exampleEn": "Example for Voice",
+      "exampleVi": "Ví dụ cho Voice",
+      "picturable": false
+    },
+    {
+      "id": "6306a812-0835-4041-a468-8c4f17115f11",
+      "deckId": "deck-850-basic",
+      "headword": "Walk",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đi bộ",
+      "exampleEn": "Example for Walk",
+      "exampleVi": "Ví dụ cho Walk",
+      "picturable": false
+    },
+    {
+      "id": "d11f5cd9-dfc7-4bd6-b424-f8eee4dc29ef",
+      "deckId": "deck-850-basic",
+      "headword": "War",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chiến tranh",
+      "exampleEn": "Example for War",
+      "exampleVi": "Ví dụ cho War",
+      "picturable": false
+    },
+    {
+      "id": "23a45c50-2777-42fb-b613-8e356aa2d6f8",
+      "deckId": "deck-850-basic",
+      "headword": "Wash",
+      "partOfSpeech": "verb",
+      "meaningVi": "Rửa",
+      "exampleEn": "Example for Wash",
+      "exampleVi": "Ví dụ cho Wash",
+      "picturable": false
+    },
+    {
+      "id": "1e7b1d2b-82e0-413c-8967-9576d2fd3dd9",
+      "deckId": "deck-850-basic",
+      "headword": "Waste",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lãng phí",
+      "exampleEn": "Example for Waste",
+      "exampleVi": "Ví dụ cho Waste",
+      "picturable": false
+    },
+    {
+      "id": "943cfa29-c229-4f69-ab5c-31ffe13aa93e",
+      "deckId": "deck-850-basic",
+      "headword": "Water",
+      "partOfSpeech": "noun",
+      "meaningVi": "Nước",
+      "exampleEn": "Example for Water",
+      "exampleVi": "Ví dụ cho Water",
+      "picturable": false
+    },
+    {
+      "id": "7e836845-1c1b-499d-99ef-c8c0804091d9",
+      "deckId": "deck-850-basic",
+      "headword": "Wave",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sóng",
+      "exampleEn": "Example for Wave",
+      "exampleVi": "Ví dụ cho Wave",
+      "picturable": false
+    },
+    {
+      "id": "2c29fa37-7740-42a4-bb12-cc1985e2c813",
+      "deckId": "deck-850-basic",
+      "headword": "Wax",
+      "partOfSpeech": "noun",
+      "meaningVi": "Sáp",
+      "exampleEn": "Example for Wax",
+      "exampleVi": "Ví dụ cho Wax",
+      "picturable": false
+    },
+    {
+      "id": "763eca5c-adf7-4404-9f88-2aefba40b9c0",
+      "deckId": "deck-850-basic",
+      "headword": "Way",
+      "partOfSpeech": "noun",
+      "meaningVi": "Cách thức",
+      "exampleEn": "Example for Way",
+      "exampleVi": "Ví dụ cho Way",
+      "picturable": false
+    },
+    {
+      "id": "eed8a5db-3a62-49d7-a30b-5b45c1cb1215",
+      "deckId": "deck-850-basic",
+      "headword": "Weather",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thời tiết",
+      "exampleEn": "Example for Weather",
+      "exampleVi": "Ví dụ cho Weather",
+      "picturable": false
+    },
+    {
+      "id": "8e3a9c15-0d09-4026-a7dd-f9258395df03",
+      "deckId": "deck-850-basic",
+      "headword": "Week",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tuần",
+      "exampleEn": "Example for Week",
+      "exampleVi": "Ví dụ cho Week",
+      "picturable": false
+    },
+    {
+      "id": "2f1e2416-8fca-429c-babf-500ed6c88b3a",
+      "deckId": "deck-850-basic",
+      "headword": "Weight",
+      "partOfSpeech": "noun",
+      "meaningVi": "Trọng lượng",
+      "exampleEn": "Example for Weight",
+      "exampleVi": "Ví dụ cho Weight",
+      "picturable": false
+    },
+    {
+      "id": "7eacbd00-4a54-46bd-a37d-4040a44018ab",
+      "deckId": "deck-850-basic",
+      "headword": "Wind",
+      "partOfSpeech": "noun",
+      "meaningVi": "Gió",
+      "exampleEn": "Example for Wind",
+      "exampleVi": "Ví dụ cho Wind",
+      "picturable": false
+    },
+    {
+      "id": "3ed8e8dd-0b82-4a74-aa32-726385334816",
+      "deckId": "deck-850-basic",
+      "headword": "Wine",
+      "partOfSpeech": "noun",
+      "meaningVi": "Rượu",
+      "exampleEn": "Example for Wine",
+      "exampleVi": "Ví dụ cho Wine",
+      "picturable": false
+    },
+    {
+      "id": "65b6417a-3b3d-4cd8-857e-29f55d583003",
+      "deckId": "deck-850-basic",
+      "headword": "Winter",
+      "partOfSpeech": "noun",
+      "meaningVi": "Mùa đông",
+      "exampleEn": "Example for Winter",
+      "exampleVi": "Ví dụ cho Winter",
+      "picturable": false
+    },
+    {
+      "id": "4bc30cb1-0276-43ee-b420-198bf91cef8a",
+      "deckId": "deck-850-basic",
+      "headword": "Woman",
+      "partOfSpeech": "noun",
+      "meaningVi": "Phụ nữ",
+      "exampleEn": "Example for Woman",
+      "exampleVi": "Ví dụ cho Woman",
+      "picturable": false
+    },
+    {
+      "id": "403b0892-77b9-4be1-9718-43fc2b0a7337",
+      "deckId": "deck-850-basic",
+      "headword": "Wood",
+      "partOfSpeech": "noun",
+      "meaningVi": "Gỗ",
+      "exampleEn": "Example for Wood",
+      "exampleVi": "Ví dụ cho Wood",
+      "picturable": false
+    },
+    {
+      "id": "22c116fa-52a1-45e0-afc0-23fdc4821ff3",
+      "deckId": "deck-850-basic",
+      "headword": "Wool",
+      "partOfSpeech": "noun",
+      "meaningVi": "Len",
+      "exampleEn": "Example for Wool",
+      "exampleVi": "Ví dụ cho Wool",
+      "picturable": false
+    },
+    {
+      "id": "d0afba3c-8dfc-4b13-bd12-b6bf70e076cf",
+      "deckId": "deck-850-basic",
+      "headword": "Word",
+      "partOfSpeech": "noun",
+      "meaningVi": "Từ",
+      "exampleEn": "Example for Word",
+      "exampleVi": "Ví dụ cho Word",
+      "picturable": false
+    },
+    {
+      "id": "2372d899-6e26-4e3f-85f4-2fb7bd79cf27",
+      "deckId": "deck-850-basic",
+      "headword": "Work",
+      "partOfSpeech": "noun",
+      "meaningVi": "Công việc",
+      "exampleEn": "Example for Work",
+      "exampleVi": "Ví dụ cho Work",
+      "picturable": false
+    },
+    {
+      "id": "50e0944b-5ff6-4b21-a6c5-5df37fa95fcd",
+      "deckId": "deck-850-basic",
+      "headword": "Wound",
+      "partOfSpeech": "noun",
+      "meaningVi": "Vết thương",
+      "exampleEn": "Example for Wound",
+      "exampleVi": "Ví dụ cho Wound",
+      "picturable": false
+    },
+    {
+      "id": "e6f20a5e-020b-4140-9614-743ff3fae036",
+      "deckId": "deck-850-basic",
+      "headword": "Writing",
+      "partOfSpeech": "noun",
+      "meaningVi": "Viết",
+      "exampleEn": "Example for Writing",
+      "exampleVi": "Ví dụ cho Writing",
+      "picturable": false
+    },
+    {
+      "id": "1397a438-a53d-4d51-9a09-d4c308103547",
+      "deckId": "deck-850-basic",
+      "headword": "Year",
+      "partOfSpeech": "noun",
+      "meaningVi": "Năm",
+      "exampleEn": "Example for Year",
+      "exampleVi": "Ví dụ cho Year",
+      "picturable": false
+    },
+    {
+      "id": "e7706579-b9fa-4c2e-a143-04a423ed3008",
+      "deckId": "deck-850-basic",
+      "headword": "Manage",
+      "partOfSpeech": "verb",
+      "meaningVi": "Quản lý",
+      "exampleEn": "Example for Manage",
+      "exampleVi": "Ví dụ cho Manage",
+      "picturable": false
+    },
+    {
+      "id": "0c23baa0-4628-4253-9fb7-e0f5a6a9a892",
+      "deckId": "deck-850-basic",
+      "headword": "Tall",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Cao",
+      "exampleEn": "Example for Tall",
+      "exampleVi": "Ví dụ cho Tall",
+      "picturable": false
+    },
+    {
+      "id": "71bfe8a6-5e4a-464b-a63d-9011f3311001",
+      "deckId": "deck-850-basic",
+      "headword": "Round",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Tròn",
+      "exampleEn": "Example for Round",
+      "exampleVi": "Ví dụ cho Round",
+      "picturable": false
+    },
+    {
+      "id": "b144a997-a88c-485c-8d84-199b01e0ee42",
+      "deckId": "deck-850-basic",
+      "headword": "Same",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Cùng",
+      "exampleEn": "Example for Same",
+      "exampleVi": "Ví dụ cho Same",
+      "picturable": false
+    },
+    {
+      "id": "87e881a1-f3ce-4364-b909-84374979a8c3",
+      "deckId": "deck-850-basic",
+      "headword": "Second",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thứ nhì",
+      "exampleEn": "Example for Second",
+      "exampleVi": "Ví dụ cho Second",
+      "picturable": false
+    },
+    {
+      "id": "33580eeb-f202-42b5-9618-9976ab10b55d",
+      "deckId": "deck-850-basic",
+      "headword": "Opposite",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Đối diện",
+      "exampleEn": "Example for Opposite",
+      "exampleVi": "Ví dụ cho Opposite",
+      "picturable": false
+    },
+    {
+      "id": "c9841597-c68f-4d1a-bf05-f14a729b37a8",
+      "deckId": "deck-850-basic",
+      "headword": "Public",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Công cộng",
+      "exampleEn": "Example for Public",
+      "exampleVi": "Ví dụ cho Public",
+      "picturable": false
+    },
+    {
+      "id": "cd47777a-ea1d-4645-8013-a29020217c04",
+      "deckId": "deck-850-basic",
+      "headword": "Rough",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Gồ ghề",
+      "exampleEn": "Example for Rough",
+      "exampleVi": "Ví dụ cho Rough",
+      "picturable": false
+    },
+    {
+      "id": "c61d310c-0b63-4c5d-ae2e-c696cc918be9",
+      "deckId": "deck-850-basic",
+      "headword": "Sad",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Buồn",
+      "exampleEn": "Example for Sad",
+      "exampleVi": "Ví dụ cho Sad",
+      "picturable": false
+    },
+    {
+      "id": "a5ba1ff4-84d9-4c9d-a64a-afbd36d14383",
+      "deckId": "deck-850-basic",
+      "headword": "Safe",
+      "partOfSpeech": "adjective",
+      "meaningVi": "An toàn",
+      "exampleEn": "Example for Safe",
+      "exampleVi": "Ví dụ cho Safe",
+      "picturable": false
+    },
+    {
+      "id": "0782bb53-f3fc-4cd4-8e8a-c38ae0275d94",
+      "deckId": "deck-850-basic",
+      "headword": "Secret",
+      "partOfSpeech": "noun",
+      "meaningVi": "Bí mật",
+      "exampleEn": "Example for Secret",
+      "exampleVi": "Ví dụ cho Secret",
+      "picturable": false
+    },
+    {
+      "id": "1196c710-0a12-4838-a9dd-7c7e85e5e8af",
+      "deckId": "deck-850-basic",
+      "headword": "Short",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Ngắn",
+      "exampleEn": "Example for Short",
+      "exampleVi": "Ví dụ cho Short",
+      "picturable": false
+    },
+    {
+      "id": "a0149a8a-b7db-4008-b426-d3d10d590ad7",
+      "deckId": "deck-850-basic",
+      "headword": "Shut",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đóng kín",
+      "exampleEn": "Example for Shut",
+      "exampleVi": "Ví dụ cho Shut",
+      "picturable": false
+    },
+    {
+      "id": "2fe4e5bf-f0d0-4cbf-998c-7cbc98873f8f",
+      "deckId": "deck-850-basic",
+      "headword": "Different",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Khác",
+      "exampleEn": "Example for Different",
+      "exampleVi": "Ví dụ cho Different",
+      "picturable": false
+    },
+    {
+      "id": "55e62a86-4f39-46d1-83f8-26f45626aa42",
+      "deckId": "deck-850-basic",
+      "headword": "Dirty",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Bẩn",
+      "exampleEn": "Example for Dirty",
+      "exampleVi": "Ví dụ cho Dirty",
+      "picturable": false
+    },
+    {
+      "id": "16a73a3a-4be1-4203-80e0-f9e90d2bc65e",
+      "deckId": "deck-850-basic",
+      "headword": "Dry",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Khô",
+      "exampleEn": "Example for Dry",
+      "exampleVi": "Ví dụ cho Dry",
+      "picturable": false
+    },
+    {
+      "id": "edc02b88-475b-424d-9777-79625e586926",
+      "deckId": "deck-850-basic",
+      "headword": "False",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Giả",
+      "exampleEn": "Example for False",
+      "exampleVi": "Ví dụ cho False",
+      "picturable": false
+    },
+    {
+      "id": "b79988fe-51c9-404d-8d1e-b5e8498f2cf9",
+      "deckId": "deck-850-basic",
+      "headword": "Feeble",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Yếu đuối",
+      "exampleEn": "Example for Feeble",
+      "exampleVi": "Ví dụ cho Feeble",
+      "picturable": false
+    },
+    {
+      "id": "57c08d95-844f-4d3e-86f1-e95d3f928bf9",
+      "deckId": "deck-850-basic",
+      "headword": "Female",
+      "partOfSpeech": "noun",
+      "meaningVi": "Giống cái",
+      "exampleEn": "Example for Female",
+      "exampleVi": "Ví dụ cho Female",
+      "picturable": false
+    },
+    {
+      "id": "0ffcde18-03b3-4a8b-bc3c-bcd3be346e20",
+      "deckId": "deck-850-basic",
+      "headword": "Foolish",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Dại dột",
+      "exampleEn": "Example for Foolish",
+      "exampleVi": "Ví dụ cho Foolish",
+      "picturable": false
+    },
+    {
+      "id": "42639141-072a-4258-87fc-1b81df7644f0",
+      "deckId": "deck-850-basic",
+      "headword": "Future",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tương lai",
+      "exampleEn": "Example for Future",
+      "exampleVi": "Ví dụ cho Future",
+      "picturable": false
+    },
+    {
+      "id": "f6a08610-ba7c-4758-9353-3ea63601b816",
+      "deckId": "deck-850-basic",
+      "headword": "Soft",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Mềm mại",
+      "exampleEn": "Example for Soft",
+      "exampleVi": "Ví dụ cho Soft",
+      "picturable": false
+    },
+    {
+      "id": "2fd70c77-95d0-4c84-ae6f-0deb2a1485f2",
+      "deckId": "deck-850-basic",
+      "headword": "Solid",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Cứng chắc",
+      "exampleEn": "Example for Solid",
+      "exampleVi": "Ví dụ cho Solid",
+      "picturable": false
+    },
+    {
+      "id": "80bbcb18-7fd5-44ed-a879-5ce017ed5de3",
+      "deckId": "deck-850-basic",
+      "headword": "Special",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Đặc biệt",
+      "exampleEn": "Example for Special",
+      "exampleVi": "Ví dụ cho Special",
+      "picturable": false
+    },
+    {
+      "id": "79ba0118-204d-4751-a93c-989873e6a082",
+      "deckId": "deck-850-basic",
+      "headword": "Strange",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Lạ",
+      "exampleEn": "Example for Strange",
+      "exampleVi": "Ví dụ cho Strange",
+      "picturable": false
+    },
+    {
+      "id": "c0b248a0-d150-40c5-823e-bd610f3ad9ec",
+      "deckId": "deck-850-basic",
+      "headword": "Thin",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Mỏng",
+      "exampleEn": "Example for Thin",
+      "exampleVi": "Ví dụ cho Thin",
+      "picturable": false
+    },
+    {
+      "id": "cdcb14a5-74f2-4099-bff9-7d134bb81a9b",
+      "deckId": "deck-850-basic",
+      "headword": "White",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Màu trắng",
+      "exampleEn": "Example for White",
+      "exampleVi": "Ví dụ cho White",
+      "picturable": false
+    },
+    {
+      "id": "1649252a-7742-415d-ba78-3db58c744f40",
+      "deckId": "deck-850-basic",
+      "headword": "Wrong",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Sai lầm",
+      "exampleEn": "Example for Wrong",
+      "exampleVi": "Ví dụ cho Wrong",
+      "picturable": false
+    },
+    {
+      "id": "4d02fcd6-5914-4a55-97a3-2b725fa16d0d",
+      "deckId": "deck-850-basic",
+      "headword": "Simple",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Đơn giản",
+      "exampleEn": "Example for Simple",
+      "exampleVi": "Ví dụ cho Simple",
+      "picturable": false
+    },
+    {
+      "id": "48787c8e-974d-41e7-ae9c-0d4ebf430da7",
+      "deckId": "deck-850-basic",
+      "headword": "Slow",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Chậm",
+      "exampleEn": "Example for Slow",
+      "exampleVi": "Ví dụ cho Slow",
+      "picturable": false
+    },
+    {
+      "id": "5d0e8b51-2f98-4df1-a846-053de18c806b",
+      "deckId": "deck-850-basic",
+      "headword": "Small",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Nhỏ",
+      "exampleEn": "Example for Small",
+      "exampleVi": "Ví dụ cho Small",
+      "picturable": false
+    },
+    {
+      "id": "08afc879-2fca-4969-9758-e40186579229",
+      "deckId": "deck-850-basic",
+      "headword": "Ability",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khả năng",
+      "exampleEn": "Example for Ability",
+      "exampleVi": "Ví dụ cho Ability",
+      "picturable": false
+    },
+    {
+      "id": "fb551fca-d558-4364-8397-06b00a791db5",
+      "deckId": "deck-850-basic",
+      "headword": "Academic",
+      "partOfSpeech": "noun",
+      "meaningVi": "Thuộc nhà trường",
+      "exampleEn": "Example for Academic",
+      "exampleVi": "Ví dụ cho Academic",
+      "picturable": false
+    },
+    {
+      "id": "ce5e68da-f646-470d-944a-6f99f6e43c7a",
+      "deckId": "deck-850-basic",
+      "headword": "Access",
+      "partOfSpeech": "noun",
+      "meaningVi": "Đường vào",
+      "exampleEn": "Example for Access",
+      "exampleVi": "Ví dụ cho Access",
+      "picturable": false
+    },
+    {
+      "id": "cd309cd5-61f7-45fb-a4b5-9b829c934c92",
+      "deckId": "deck-850-basic",
+      "headword": "Accident",
+      "partOfSpeech": "noun",
+      "meaningVi": "Tai nạn",
+      "exampleEn": "Example for Accident",
+      "exampleVi": "Ví dụ cho Accident",
+      "picturable": false
+    },
+    {
+      "id": "3106922d-7c99-4825-a244-7de077c1af21",
+      "deckId": "deck-850-basic",
+      "headword": "Alone",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Chỉ một mình",
+      "exampleEn": "Example for Alone",
+      "exampleVi": "Ví dụ cho Alone",
+      "picturable": false
+    },
+    {
+      "id": "01d202e1-ac58-4da4-863a-ded996db3ba6",
+      "deckId": "deck-850-basic",
+      "headword": "Along",
+      "partOfSpeech": "preposition",
+      "meaningVi": "Dọc theo",
+      "exampleEn": "Example for Along",
+      "exampleVi": "Ví dụ cho Along",
+      "picturable": false
+    },
+    {
+      "id": "dcea0dbe-bd93-4d05-823f-7357bb74bf3f",
+      "deckId": "deck-850-basic",
+      "headword": "Affect",
+      "partOfSpeech": "verb",
+      "meaningVi": "Tác động",
+      "exampleEn": "Example for Affect",
+      "exampleVi": "Ví dụ cho Affect",
+      "picturable": false
+    },
+    {
+      "id": "7a491f9b-25d0-4dca-8733-413c14641c34",
+      "deckId": "deck-850-basic",
+      "headword": "Afford",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đủ khả năng",
+      "exampleEn": "Example for Afford",
+      "exampleVi": "Ví dụ cho Afford",
+      "picturable": false
+    },
+    {
+      "id": "1876c220-7267-46a9-8bee-5e1c09ae8e04",
+      "deckId": "deck-850-basic",
+      "headword": "Advice",
+      "partOfSpeech": "noun",
+      "meaningVi": "Lời khuyên",
+      "exampleEn": "Example for Advice",
+      "exampleVi": "Ví dụ cho Advice",
+      "picturable": false
+    },
+    {
+      "id": "1d7c7a56-4633-4a3e-8e10-c2e57cd4303e",
+      "deckId": "deck-850-basic",
+      "headword": "Advise",
+      "partOfSpeech": "verb",
+      "meaningVi": "Khuyên",
+      "exampleEn": "Example for Advise",
+      "exampleVi": "Ví dụ cho Advise",
+      "picturable": false
+    },
+    {
+      "id": "5be9a148-b75b-41ca-b104-339111d530f4",
+      "deckId": "deck-850-basic",
+      "headword": "All right",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Được",
+      "exampleEn": "Example for All right",
+      "exampleVi": "Ví dụ cho All right",
+      "picturable": false
+    },
+    {
+      "id": "6abb18c6-78ad-43b1-8c52-c0749c4a5d73",
+      "deckId": "deck-850-basic",
+      "headword": "Alternative",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Thay thế",
+      "exampleEn": "Example for Alternative",
+      "exampleVi": "Ví dụ cho Alternative",
+      "picturable": false
+    },
+    {
+      "id": "0bf9c56f-2cfd-4c3a-abde-4c2bdd573fbd",
+      "deckId": "deck-850-basic",
+      "headword": "Announce",
+      "partOfSpeech": "verb",
+      "meaningVi": "Tuyên bố",
+      "exampleEn": "Example for Announce",
+      "exampleVi": "Ví dụ cho Announce",
+      "picturable": false
+    },
+    {
+      "id": "5ed5ec74-d520-4c54-9fb4-802b9c9fa267",
+      "deckId": "deck-850-basic",
+      "headword": "Attractive",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Cuốn hút",
+      "exampleEn": "Example for Attractive",
+      "exampleVi": "Ví dụ cho Attractive",
+      "picturable": false
+    },
+    {
+      "id": "35957196-d92e-41de-9502-a3566bc76af9",
+      "deckId": "deck-850-basic",
+      "headword": "Average",
+      "partOfSpeech": "adjective",
+      "meaningVi": "Trung bình",
+      "exampleEn": "Example for Average",
+      "exampleVi": "Ví dụ cho Average",
+      "picturable": false
+    },
+    {
+      "id": "f1b70288-12fc-4a88-a9de-cb802b647682",
+      "deckId": "deck-850-basic",
+      "headword": "Avoid",
+      "partOfSpeech": "verb",
+      "meaningVi": "Tránh",
+      "exampleEn": "Example for Avoid",
+      "exampleVi": "Ví dụ cho Avoid",
+      "picturable": false
+    },
+    {
+      "id": "972415d9-9f7f-42f6-938a-3e8f054be202",
+      "deckId": "deck-850-basic",
+      "headword": "Band",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ban nhạc",
+      "exampleEn": "Example for Band",
+      "exampleVi": "Ví dụ cho Band",
+      "picturable": false
+    },
+    {
+      "id": "c6fe04a5-9a1c-4bf6-bbf9-bb3a4cd375e0",
+      "deckId": "deck-850-basic",
+      "headword": "Bank",
+      "partOfSpeech": "noun",
+      "meaningVi": "Ngân hàng",
+      "exampleEn": "Example for Bank",
+      "exampleVi": "Ví dụ cho Bank",
+      "picturable": false
+    },
+    {
+      "id": "2f48cbe0-3aff-42b4-ae5f-cec13e4ca17d",
+      "deckId": "deck-850-basic",
+      "headword": "Bar",
+      "partOfSpeech": "noun",
+      "meaningVi": "Quán rượu",
+      "exampleEn": "Example for Bar",
+      "exampleVi": "Ví dụ cho Bar",
+      "picturable": false
+    },
+    {
+      "id": "d83fa8fd-232a-4781-ad97-288a8ef9740d",
+      "deckId": "deck-850-basic",
+      "headword": "Beat",
+      "partOfSpeech": "verb",
+      "meaningVi": "Đánh đập",
+      "exampleEn": "Example for Beat",
+      "exampleVi": "Ví dụ cho Beat",
+      "picturable": false
+    },
+    {
+      "id": "b2fe8bf9-7ecd-446f-ac79-67bdd68b7012",
+      "deckId": "deck-850-basic",
+      "headword": "Area",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khu vực",
+      "exampleEn": "Example for Area",
+      "exampleVi": "Ví dụ cho Area",
+      "picturable": false
+    },
+    {
+      "id": "1adb5b15-89fe-46b6-afe2-f377e19c215c",
+      "deckId": "deck-850-basic",
+      "headword": "Attach",
+      "partOfSpeech": "verb",
+      "meaningVi": "Dán",
+      "exampleEn": "Example for Attach",
+      "exampleVi": "Ví dụ cho Attach",
+      "picturable": false
+    },
+    {
+      "id": "ecdc0f59-0406-47f6-a02a-248cb8931670",
+      "deckId": "deck-850-basic",
+      "headword": "Atmosphere",
+      "partOfSpeech": "noun",
+      "meaningVi": "Khí quyển",
+      "exampleEn": "Example for Atmosphere",
+      "exampleVi": "Ví dụ cho Atmosphere",
+      "picturable": false
+    },
+    {
+      "id": "76e5a8a1-82cd-4701-b60d-3967ec5b80bd",
+      "deckId": "deck-850-basic",
+      "headword": "Appoint",
+      "partOfSpeech": "verb",
+      "meaningVi": "Bổ nhiệm",
+      "exampleEn": "Example for Appoint",
+      "exampleVi": "Ví dụ cho Appoint",
+      "picturable": false
+    },
+    {
+      "id": "a933de15-17aa-4ab3-9650-4cff525fa811",
+      "deckId": "deck-850-basic",
+      "headword": "Disappear",
+      "partOfSpeech": "verb",
+      "meaningVi": "Biến mất",
+      "exampleEn": "Example for Disappear",
+      "exampleVi": "Ví dụ cho Disappear",
+      "picturable": false
+    },
+    {
+      "id": "a0aa5a7d-c48a-4894-a663-8ab07e269a60",
+      "deckId": "deck-850-basic",
+      "headword": "Appear",
+      "partOfSpeech": "verb",
+      "meaningVi": "Xuất hiện",
+      "exampleEn": "Example for Appear",
+      "exampleVi": "Ví dụ cho Appear",
+      "picturable": false
+    },
+    {
+      "id": "5192f246-6e97-4d35-8087-1562b7c0edc7",
+      "deckId": "deck-850-basic",
+      "headword": "Candidate",
+      "partOfSpeech": "noun",
+      "meaningVi": "Người ứng cử",
+      "exampleEn": "Example for Candidate",
+      "exampleVi": "Ví dụ cho Candidate",
+      "picturable": false
+    },
+    {
+      "id": "40f05ad9-c1cc-4f6f-8e64-f6401043857b",
+      "deckId": "deck-850-basic",
+      "headword": "Pan",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chảo",
+      "exampleEn": "Example for Pan",
+      "exampleVi": "Ví dụ cho Pan",
+      "picturable": false
+    },
+    {
+      "id": "0d9479f8-54f5-4b58-969f-b7cc1faae035",
+      "deckId": "deck-850-basic",
+      "headword": "Chairman",
+      "partOfSpeech": "noun",
+      "meaningVi": "Chủ tịch",
+      "exampleEn": "Example for Chairman",
+      "exampleVi": "Ví dụ cho Chairman",
+      "picturable": false
+    },
+    {
+      "id": "9d7563d1-3a64-4d4a-b434-5f29b191062a",
+      "deckId": "deck-850-basic",
+      "headword": "Confirm",
+      "partOfSpeech": "verb",
+      "meaningVi": "Xác nhận",
+      "exampleEn": "Example for Confirm",
+      "exampleVi": "Ví dụ cho Confirm",
+      "picturable": false
+    },
+    {
+      "id": "62dc49e9-c2bb-44a5-9c66-7d1c2741d2e8",
+      "deckId": "deck-850-basic",
+      "headword": "Action",
+      "partOfSpeech": "noun",
+      "meaningVi": "Hành động",
+      "exampleEn": "Example for Action",
+      "exampleVi": "Ví dụ cho Action",
+      "picturable": false
+    }
+  ],
+  "userWords": [],
+  "sessions": [],
+  "importJobs": [],
+  "userBadges": [],
+  "teachers": [
+    {
+      "id": "demo-teacher",
+      "name": "Giáo viên Demo",
+      "email": "teacher@example.com",
+      "studentIds": [
+        "demo-user",
+        "student-001",
+        "student-002"
+      ],
+      "createdAt": "2025-11-22T04:17:14.255Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "class-demo",
+      "teacherId": "demo-teacher",
+      "name": "Lớp tiếng Anh cơ bản",
+      "description": "Lớp học từ vựng cơ bản cho người mới bắt đầu",
+      "studentIds": [
+        "demo-user",
+        "student-001",
+        "student-002"
+      ],
+      "assignedDecks": [
+        "deck-operations",
+        "deck-things"
+      ],
+      "createdAt": "2025-11-22T04:17:14.258Z"
+    }
+  ],
+  "studyRooms": [],
+  "chatMessages": [],
+  "lmsConnections": [],
+  "syncEvents": [],
+  "dailyLessons": [],
+  "userProgress": [
+    {
+      "id": "b8d22c24-88ee-4ff4-b579-0d2a0db78841",
+      "userId": "user-1",
+      "deckId": "deck-850-basic",
+      "currentDay": 1,
+      "completedDays": [],
+      "weeklyTestScores": [],
+      "totalWordsLearned": 0,
+      "streak": 0,
+      "startedAt": "2025-11-22T16:46:11.692Z",
+      "lastActivityAt": "2025-11-22T16:46:11.692Z"
+    }
+  ]
+}

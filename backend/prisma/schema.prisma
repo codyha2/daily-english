@@ -1,0 +1,233 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String   @id @default(uuid())
+  name           String
+  email          String   @unique
+  password       String   // bcrypt hashed
+  role           String   @default("student") // "student" | "teacher"
+  dailyGoal      Int      @default(10)
+  language       String   @default("en") // "vi" | "en"
+  streak         Int      @default(0)
+  lastSessionAt  DateTime?
+  xp             Int      @default(0)
+  notificationTime String?
+  
+  // Auth fields
+  refreshToken   String?
+  emailVerified  Boolean  @default(false)
+  resetToken     String?
+  resetTokenExp  DateTime?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  
+  // Relations
+  userWords      UserWord[]
+  sessions       Session[]
+  importJobs     ImportJob[]
+  userBadges     UserBadge[]
+  chatMessages   ChatMessage[]
+  lmsConnections LMSConnection[]
+  syncEvents     SyncEvent[]
+  userProgress   UserProgress[]
+  ownedRooms     StudyRoom[] @relation("OwnedRooms")
+  // Many-to-many relations are handled implicitly or explicitly depending on needs
+  // For simplicity in migration, we might keep IDs in arrays or use link tables
+  // Prisma prefers explicit relations for better querying
+}
+
+model Deck {
+  id          String   @id @default(uuid())
+  name        String
+  description String
+  category    String
+  totalWords  Int
+  version     Int
+  language    String   @default("en")
+
+  // Relations
+  words       WordEntry[]
+  sessions    Session[]
+  dailyLessons DailyLesson[]
+  userProgress UserProgress[]
+}
+
+model WordEntry {
+  id           String   @id @default(uuid())
+  deckId       String
+  headword     String
+  partOfSpeech String
+  meaningVi    String
+  exampleEn    String
+  exampleVi    String
+  picturable   Boolean  @default(false)
+  audioUrl     String?
+  imageUrl     String?
+  tags         String?  // Stored as JSON string or comma-separated
+  oppositeOf   String?
+
+  deck         Deck     @relation(fields: [deckId], references: [id])
+  userWords    UserWord[]
+}
+
+model UserWord {
+  id            String   @id @default(uuid())
+  userId        String
+  wordId        String
+  state         String   // "new" | "learning" | "mastered" | "forgotten"
+  interval      Int
+  dueDate       DateTime
+  successStreak Int
+  failureCount  Int
+  recallPercent Int
+  lastResult    String?  // "know" | "hard" | "dont"
+
+  user          User      @relation(fields: [userId], references: [id])
+  word          WordEntry @relation(fields: [wordId], references: [id])
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  userId       String
+  deckId       String
+  createdAt    DateTime @default(now())
+  completedAt  DateTime?
+  newTarget    Int
+  reviewTarget Int
+  status       String   // "active" | "completed"
+  answers      String   // Stored as JSON string: SessionAnswer[]
+  xpEarned     Int
+
+  user         User     @relation(fields: [userId], references: [id])
+  deck         Deck     @relation(fields: [deckId], references: [id])
+}
+
+model ImportJob {
+  id        String   @id @default(uuid())
+  userId    String
+  fileName  String
+  status    String   // "pending" | "parsed" | "error"
+  createdAt DateTime @default(now())
+  rows      Int
+  logs      String   // Stored as JSON string: string[]
+
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model UserBadge {
+  id       String   @id @default(uuid())
+  userId   String
+  badgeId  String
+  earnedAt DateTime @default(now())
+
+  user     User     @relation(fields: [userId], references: [id])
+}
+
+model Teacher {
+  id         String   @id @default(uuid())
+  name       String
+  email      String
+  studentIds String   // JSON string: string[]
+  createdAt  DateTime @default(now())
+}
+
+model Class {
+  id            String   @id @default(uuid())
+  teacherId     String
+  name          String
+  description   String?
+  studentIds    String   // JSON string: string[]
+  assignedDecks String   // JSON string: string[]
+  createdAt     DateTime @default(now())
+}
+
+model StudyRoom {
+  id          String   @id @default(uuid())
+  name        String
+  code        String   @unique
+  ownerId     String
+  memberIds   String   // JSON string: string[]
+  deckId      String
+  status      String   // "waiting" | "active" | "completed"
+  maxMembers  Int
+  isPublic    Boolean
+  createdAt   DateTime @default(now())
+  completedAt DateTime?
+
+  owner       User     @relation("OwnedRooms", fields: [ownerId], references: [id])
+}
+
+model ChatMessage {
+  id        String   @id @default(uuid())
+  roomId    String
+  userId    String
+  userName  String
+  message   String
+  timestamp DateTime @default(now())
+
+  user      User     @relation(fields: [userId], references: [id])
+}
+
+model LMSConnection {
+  id           String   @id @default(uuid())
+  userId       String
+  platform     String   // "moodle" | "canvas"
+  instanceUrl  String
+  accessToken  String
+  refreshToken String?
+  expiresAt    DateTime
+  connected    Boolean
+
+  user         User     @relation(fields: [userId], references: [id])
+}
+
+model DailyLesson {
+  id          String   @id @default(uuid())
+  deckId      String
+  day         Int
+  weekNumber  Int
+  type        String   // "learn" | "review" | "test"
+  wordIds     String   // JSON string: string[]
+  wordsCount  Int
+  name        String
+  description String
+
+  deck        Deck     @relation(fields: [deckId], references: [id])
+}
+
+model UserProgress {
+  id                String   @id @default(uuid())
+  userId            String
+  deckId            String
+  currentDay        Int
+  completedDays     String   // JSON string: number[]
+  weeklyTestScores  String   // JSON string: WeeklyTestScore[]
+  totalWordsLearned Int
+  streak            Int
+  startedAt         DateTime
+  lastActivityAt    DateTime
+  completedAt       DateTime?
+  activityHistory   String   // JSON string: { date: string; count: number }[]
+
+  user              User     @relation(fields: [userId], references: [id])
+  deck              Deck     @relation(fields: [deckId], references: [id])
+}
+
+model SyncEvent {
+  id        String   @id @default(uuid())
+  userId    String
+  type      String   // "word_learned" | "session_complete" | "badge_earned" | "streak_update"
+  data      String   // JSON string
+  timestamp DateTime @default(now())
+  synced    Boolean
+
+  user      User     @relation(fields: [userId], references: [id])
+}
