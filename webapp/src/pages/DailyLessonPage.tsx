@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, Loader2, Calendar, Award, AlertCircle, Volume2 } from 'lucide-react';
 import { AudioButton } from '../components/AudioButton';
+import { PronunciationChecker } from '../components/PronunciationChecker';
 import { getAIExamples, translateText } from '../services/openai';
 
 interface Word {
@@ -38,7 +39,7 @@ import { API_BASE_URL } from '../config/api';
 
 const API_BASE = API_BASE_URL;
 const DECK_ID = 'deck-850-basic';
-const USER_ID = 'user-1';
+const USER_ID = 'demo-user';
 
 export default function DailyLessonPage() {
     const { day } = useParams();
@@ -373,6 +374,9 @@ export default function DailyLessonPage() {
                                 {!aiExample && currentWord.exampleVi && !currentWord.exampleVi.startsWith('Ví dụ cho') && (
                                     <p className="text-gray-400 text-sm mt-4">({currentWord.exampleVi})</p>
                                 )}
+
+                                {/* Pronunciation Checker */}
+                                <PronunciationChecker targetWord={currentWord.headword} />
                             </motion.div>
                         ) : (
                             <div className="h-32 flex items-center justify-center">

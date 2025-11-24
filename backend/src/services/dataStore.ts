@@ -106,7 +106,8 @@ class DataStore {
         streak: u.streak,
         lastSessionAt: u.lastSessionAt ? new Date(u.lastSessionAt) : null,
         xp: u.xp,
-        notificationTime: u.notificationTime || null
+        notificationTime: u.notificationTime || null,
+        password: (u as any).password || "demo123" // Added password field with default
       };
 
       try {

@@ -24,7 +24,7 @@ interface Question {
 
 const API_BASE = API_BASE_URL;
 const DECK_ID = 'deck-850-basic';
-const USER_ID = 'user-1';
+const USER_ID = 'demo-user';
 
 export default function WeeklyTestPage() {
     const { day } = useParams();

@@ -171,7 +171,7 @@ export default function SettingsPage() {
                                 if (window.confirm('Are you sure you want to reset all progress? This cannot be undone.')) {
                                     try {
                                         const API_BASE = API_BASE_URL;
-                                        const USER_ID = 'user-1';
+                                        const USER_ID = 'demo-user';
                                         const DECK_ID = 'deck-850-basic';
 
                                         const response = await fetch(`${API_BASE}/curriculum/reset-progress/${USER_ID}/${DECK_ID}`, {
